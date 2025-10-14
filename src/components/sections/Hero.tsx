@@ -56,7 +56,7 @@ export const Hero = () => {
         mass: 1
     })
 
-    const opacityOverlay = useTransform(scrollYProgress, [0.5, 0.9], [0,1])
+    const opacityOverlay = useTransform(scrollYProgress, [0.5, 0.9], [0, 1])
 
 
     return (
@@ -64,7 +64,7 @@ export const Hero = () => {
             <div className="sticky top-0 flex items-center h-screen overflow-hidden bg-[url(src/assets/EmpireState.jpg)] bg-cover bg-center">
 
 
-                <motion.div style={{opacity: opacityOverlay}} className="absolute inset-0 bg-black/40 pointer-events-none z-10"></motion.div>
+                <motion.div style={{ opacity: opacityOverlay }} className="absolute inset-0 bg-black/40 pointer-events-none z-10"></motion.div>
                 <motion.svg style={{ scale, opacity }} className="absolute inset-0 w-full h-full z-20">
                     <motion.g>
                         <mask id="text-mask">
@@ -78,18 +78,21 @@ export const Hero = () => {
                     </motion.g>
                 </motion.svg>
 
-                <motion.div style={{ y: yText }} className="hidden lg:block z-10 absolute bottom-45 sm:mx-6 md:mx-12 lg:mx-16 xl:mx-28 2xl:mx-32 3xl:mx-72">
-                    <h1 className="text-white text-[64px]">Your Modern Stay in the Heart of Times Square</h1>
-                </motion.div>
+                <div id="home" className="h-screen">
 
-                <div className="md:hidden absolute bottom-12 w-full px-4 z-20">
-                    <h1 className="text-white text-[22px] my-4 sm:text-[30px] whitespace">Your Modern Stay in the Heart of Times Square</h1>
-                    <BookingPhones /> 
+                    <motion.div style={{ y: yText }} className="hidden lg:block z-10 absolute bottom-45 sm:mx-6 md:mx-12 lg:mx-16 xl:mx-28 2xl:mx-32 3xl:mx-72">
+                        <h1 className="text-white text-[64px]">Your Modern Stay in the Heart of Times Square</h1>
+                    </motion.div>
+
+                    <div className="md:hidden absolute bottom-12 w-full px-4 z-20">
+                        <h1 className="text-white text-[22px] my-4 sm:text-[30px] whitespace">Your Modern Stay in the Heart of Times Square</h1>
+                        <BookingPhones />
+                    </div>
+
+                    <motion.div style={{ y: yBook }} className="hidden absolute mx-2 sm:mx-6 md:mx-12 lg:mx-16 xl:mx-28 2xl:mx-32 3xl:mx-72 bottom-12 md:flex z-20">
+                        <HeroDatePicker />
+                    </motion.div>
                 </div>
-
-                <motion.div style={{ y: yBook }} className="hidden absolute mx-2 sm:mx-6 md:mx-12 lg:mx-16 xl:mx-28 2xl:mx-32 3xl:mx-72 bottom-12 md:flex z-20">
-                    <HeroDatePicker />
-                </motion.div>
             </div>
 
 

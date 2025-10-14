@@ -1,6 +1,6 @@
 export const Benefits = () => {
     return (
-        <section className="hidden h-auto md:block mb-24 md:px-12 lg:px-16 xl:px-28 2xl:px-32 3xl:px-72">
+        <section id="hiltonplus" className="hidden h-auto md:block mb-24 md:px-12 lg:px-16 xl:px-28 2xl:px-32 3xl:px-72 py-1">
 
             <div className="flex flex-col mt-20 mb-4">
                 <h1 className="flex md:text-[36px] 2xl:text-[68px]/28 justify-center font-semibold">Hilton Honors Member Benefits</h1>

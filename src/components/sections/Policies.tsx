@@ -7,7 +7,7 @@ export const Policies = () => {
   const [selectedPolicy, setSelectedPolicy] = useState<PolicyKey | "">("Parking");
 
   return (
-    <section className="overflow-hidden h-auto px-4 sm:px-6 md:px-12 lg:px-16 xl:px-28 2xl:px-32 3xl:px-72 py-16">
+    <section id="policies" className="overflow-hidden h-auto px-4 sm:px-6 md:px-12 lg:px-16 xl:px-28 2xl:px-32 3xl:px-72 py-16">
       <div className="flex justify-center">
         <h1 className="text-[48px]">HOTEL POLICIES</h1>
       </div>

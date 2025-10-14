@@ -17,7 +17,7 @@ export const RoomCarousel = () => {
 
 
   return (
-    <section ref={targetRef} className="relative h-[450vh]">
+    <section id="rooms" ref={targetRef} className="relative h-[450vh]">
       <div className="z-0 sticky top-0 flex items-center h-screen overflow-hidden">
 
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-[4px] xl:px-[288px] md:px-[60px] lg:px-[80px] 2xl:px-[430px]">

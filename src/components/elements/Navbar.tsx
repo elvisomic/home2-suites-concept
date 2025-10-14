@@ -1,8 +1,8 @@
 const navItems = [
-  { href: "#", text: "HOME" },
-  { href: "#", text: "BOOK" },
-  { href: "#", text: "ABOUT US" },
-  { href: "#", text: "DISCLAIMER" }
+  { href: "#home", text: "HOME" },
+  { href: "#rooms", text: "ROOMS" },
+  { href: "#policies", text: "POLICIES" },
+  { href: "#hiltonplus", text: "HILTON+" }
 ]
 
 

@@ -3,7 +3,7 @@ import Nearby from "../cards/Nearby"
 
 export const Explore = () => {
     return (
-        <section className="hidden md:block overflow-hidden">
+        <section id="explore" className="hidden md:block overflow-hidden">
             <div className="h-200 grid grid-cols-2 grid-rows-[40%_60%]">
                 <div className="h-full flex items-center pl-4 lg:pl-16 xl:pl-28 2xl:pl-32 3xl:pl-72">
                     <div className="h-80 py-12 flex flex-wrap">
