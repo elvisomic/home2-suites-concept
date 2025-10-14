@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: "Core Sans R W01 55 Bold";
-    src: url("home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.eot");
-    src: url("home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.eot?#iefix")format("embedded-opentype"),
-        url("home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.woff")format("woff"),
-        url("home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.woff2")format("woff2"),
-        url("home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.ttf")format("truetype"),
-        url("home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.svg#Core Sans R W01 55 Bold")format("svg");
+    src: url("/home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.eot");
+    src: url("/home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.eot?#iefix")format("embedded-opentype"),
+        url("/home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.woff")format("woff"),
+        url("/home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.woff2")format("woff2"),
+        url("/home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.ttf")format("truetype"),
+        url("/home2-suites-concept/assets/fonts/a1238f6873b1900012de298b40e2b3b8.svg#Core Sans R W01 55 Bold")format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -23,13 +23,13 @@
 
 @font-face {
     font-family: "Sigurd", serif;
-    src: url("home2-suites-concept/assets/Sigurd-Light.otf");
+    src: url("/home2-suites-concept/assets/Sigurd-Light.otf");
 
 }
 
 @font-face {
     font-family: "DINBold", sans-serif;
-    src: url("home2-suites-concept/assets/dinbold.otf");
+    src: url("/home2-suites-concept/assets/dinbold.otf");
 }
 
 @theme {
