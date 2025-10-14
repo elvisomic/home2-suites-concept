@@ -59,24 +59,25 @@ export const Ammenities = () => {
                 </div>
             </div>
 
-            <div className="w-full h-150">
-                <div className="grid grid-cols-2 h-full w-full">
-                    <div className="h-full w-full flex flex-wrap justify-center">
+            <div className="w-full h-240">
+                <div className="grid grid-rows-2 md:grid-cols-2 h-full w-full">
+                    <div className="h-120 w-full flex justify-center">
                         <img src="src/assets/rooftopBar.jpg" className="mt-4 rounded-lg object-cover h-120 w-full" />
                     </div>
-                    <div className="h-120 w-full flex flex-wrap items-center">
-                        <div className="h-50 flex flex-wrap gap-y-6 mx-4">
-                            <h1 className="opacity-70 text-[20px] md:text-[28px] font-coreR">Interlude Rooftop Lounge</h1>
-                            <p className="text-[12px] md:text-[15px] lg:text-[20px] font-light">Escape to the sky above Times Square at Interlude Rooftop Lounge. Sip on handcrafted cocktails and share gourmet bites in an elevated atmosphere that's both chic and inviting. Our expert mixologists craft signature drinks with flair, while you take in sweeping views of New York City and enjoy attentive, personalized service.</p>
+
+                    <div className="h- w-full flex flex-wrap items-center">
+                        <div className="h-50 flex flex-wrap justify-center md:justify-start gap-y-6 mx-4">
+                            <h1 className="opacity-70 text-[32px] md:text-[28px] font-coreR">Interlude Rooftop Lounge</h1>
+                            <p className="text-[16px] md:text-[16px] lg:text-[20px] font-light">Escape to the sky above Times Square at Interlude Rooftop Lounge. Sip on handcrafted cocktails and share gourmet bites in an elevated atmosphere that's both chic and inviting. Our expert mixologists craft signature drinks with flair, while you take in sweeping views of New York City and enjoy attentive, personalized service.</p>
                         </div>
                         <div className="h-8 w-full mx-4">
                             <div className="flex w-full font-normal">
 
                                 <div className="w-full h-6 flex justify-start">
                                     <h3 className="hidden sm:block">Monday - Sunday</h3>
-                                    <h3 className="text-[12px] sm:hidden">MON - SUN</h3>
+                                    <h3 className="text-[14px] sm:hidden">MON - SUN</h3>
                                 </div>
-                                <div className="text-[12px] sm:text-[16px] w-full h-6 flex justify-end">
+                                <div className="text-[14px] sm:text-[16px] w-full h-6 flex justify-end">
                                     <h3>6PM - 12AM</h3>
                                 </div>
                             </div>
