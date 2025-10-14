@@ -42,32 +42,32 @@ export const PhotoSwiper = () => {
                 <SwiperSlide>
                     <Text t="Freshly baked cookies you can't miss in Manhattan" />
                     <Button />
-                    <Slika src="home2-suites-concept/assets/PhotosSection/cookies.jpg" cName="object-[50%]" />
+                    <Slika src="/home2-suites-concept/assets/PhotosSection/cookies.jpg" cName="object-[50%]" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="A green oasis in the heart of Manhattan to explore" />
                     <Button />
-                    <Slika src="home2-suites-concept/assets/PhotosSection/centralPark.jpg" cName="" />
+                    <Slika src="/home2-suites-concept/assets/PhotosSection/centralPark.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Unmissable shows lighting up Broadway's legendary stages" />
                     <Button />
-                    <Slika src="home2-suites-concept/assets/PhotosSection/broadway.png" cName="" />
+                    <Slika src="/home2-suites-concept/assets/PhotosSection/broadway.png" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Iconic skyline views you'll never forget in Manhattan" />
                     <Button />
-                    <Slika src="home2-suites-concept/assets/PhotosSection/landscape.jpg" cName="object-[73%]" />
+                    <Slika src="/home2-suites-concept/assets/PhotosSection/landscape.jpg" cName="object-[73%]" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="The world-famous symbol of freedom you must see" />
                     <Button />
-                    <Slika src="home2-suites-concept/assets/PhotosSection/liberty.jpg" cName="object-[30%]" />
+                    <Slika src="/home2-suites-concept/assets/PhotosSection/liberty.jpg" cName="object-[30%]" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Picture-perfect views and charm to discover in DUMBO" />
                     <Button />
-                    <Slika src="home2-suites-concept/assets/PhotosSection/dumbo.jpg" cName="" />
+                    <Slika src="/home2-suites-concept/assets/PhotosSection/dumbo.jpg" cName="" />
                 </SwiperSlide>
             </Swiper>
 

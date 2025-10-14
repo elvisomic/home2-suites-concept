@@ -2,7 +2,7 @@ const Benefit = ({ src, pText, hText, cName }: { src: string, pText: string, hTe
     return (
         <div className={`bg-gray-100 grid grid-rows-[40%_60%] overflow-hidden grid-cols-[30%_70%] p-2 ${cName}`} >
             <div className="row-span-2 flex items-center justify-center">
-                <img src={`home2-suites-concept/assets/svg/${src}`} className="h-16 w-16 bg-gray-200 rounded-full p-2" />
+                <img src={`/home2-suites-concept/assets/svg/${src}`} className="h-16 w-16 bg-gray-200 rounded-full p-2" />
             </div>
 
             <div className="flex items-end font-coreR">

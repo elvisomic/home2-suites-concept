@@ -170,13 +170,13 @@ export default function HotelDatePicker() {
                 <Label className="text-[16px] mr-2">Adults</Label>
                 <div className="h-10 mx-2 w-30 border-black border-1 rounded-lg flex items-center justify-between px-2">
                   <Button isDisabled={countAdults <= 1} onPress={GuestDecAdults} className="data-[disabled]:cursor-not-allowed group flex items-center justify-center cursor-pointer">
-                    <img src='home2-suites-concept/assets/svg/minus.svg' className='h-5 w-5 group-data-[disabled]:opacity-50 transition-opacity' />
+                    <img src='/home2-suites-concept/assets/svg/minus.svg' className='h-5 w-5 group-data-[disabled]:opacity-50 transition-opacity' />
                   </Button>
 
                   <Label className="text-[20px] h-full w-10 flex justify-center items-center px-2">{countAdults}</Label>
 
                   <Button onPress={GuestIncAdults} className="flex items-center justify-center cursor-pointer">
-                    <img src='home2-suites-concept/assets/svg/plus.svg' className='h-5 w-5' />
+                    <img src='/home2-suites-concept/assets/svg/plus.svg' className='h-5 w-5' />
                   </Button>
                 </div>
               </div>
@@ -185,12 +185,12 @@ export default function HotelDatePicker() {
                 <Label className="text-[16px] mr-2">Children</Label>
                 <div className="h-10 mx-2 w-30 border-black border-1 rounded-lg flex items-center justify-between px-2">
                   <Button isDisabled={countChildren <= 0} onPress={GuestDecChildren} className="data-[disabled]:cursor-not-allowed group flex items-center justify-center cursor-pointer">
-                    <img src='home2-suites-concept/assets/svg/minus.svg' className='h-5 w-5 group-data-[disabled]:opacity-50 transition-opacity' />
+                    <img src='/home2-suites-concept/assets/svg/minus.svg' className='h-5 w-5 group-data-[disabled]:opacity-50 transition-opacity' />
                   </Button>
                   <Label className="text-[20px] h-full w-10 flex justify-center items-center px-2">{countChildren}</Label>
 
                   <Button onPress={GuestIncChildren} className="flex items-center justify-center cursor-pointer ">
-                    <img src='home2-suites-concept/assets/svg/plus.svg' className='h-5 w-5' />
+                    <img src='/home2-suites-concept/assets/svg/plus.svg' className='h-5 w-5' />
                   </Button>
                 </div>
               </div>

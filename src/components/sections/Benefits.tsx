@@ -17,7 +17,7 @@ export const Benefits = () => {
 
                 <div className="p-5 overflow-y-hidden rounded-lg row-span-2 h-full bg-gray-300 grid grid-rows-[80%_20%]">
                     <div className="bg-white h-full w-full flex justify-center">
-                        <img src="home2-suites-concept/assets/bentoGrid/Coins-rafiki.png" className="h-120 object-cover" />
+                        <img src="/home2-suites-concept/assets/bentoGrid/Coins-rafiki.png" className="h-120 object-cover" />
                     </div>
                     <div className="2xl:max-w-[400px]">
                         <h1 className="text-[24px]/12 font-semibold">Points and Perks</h1>
@@ -26,7 +26,7 @@ export const Benefits = () => {
                 </div>
                 <div className="p-5 rounded-lg col-span-2 lg:h-105 xl:h-90 2xl:h-80 bg-gray-300 grid grid-cols-[70%_30%]">
                     <div className="bg-white h-full w-full flex justify-center">
-                        <img src="home2-suites-concept/assets/bentoGrid/Hotel Booking-cuate.png" className="h-70" />
+                        <img src="/home2-suites-concept/assets/bentoGrid/Hotel Booking-cuate.png" className="h-70" />
                     </div>
                     <div className="mx-4 2xl:max-w-[400px]">
                         <h1 className="text-[24px]/12 font-semibold">Points and Perks</h1>
@@ -36,7 +36,7 @@ export const Benefits = () => {
                 </div>
                 <div className="p-5 rounded-lg lg:h-105 xl:h-90 2xl:h-80 bg-gray-300 grid grid-rows-[60%_40%]">
                     <div className="bg-white h-full w-full flex  px-4 overflow-y-hidden">
-                        <img src="home2-suites-concept/assets/bentoGrid/Date picker-amico.png" className="h-40" />
+                        <img src="/home2-suites-concept/assets/bentoGrid/Date picker-amico.png" className="h-40" />
                     </div>
                     <div className="2xl:max-w-[400px]">
                         <h1 className="text-[24px]/12 font-semibold">Points and Perks</h1>
@@ -46,7 +46,7 @@ export const Benefits = () => {
                 </div>
                 <div className="p-5 rounded-lg lg:h-105 xl:h-90 2xl:h-80 bg-gray-300 grid grid-rows-[60%_40%]">
                     <div className="bg-white h-full w-full flex justify-center">
-                        <img src="home2-suites-concept/assets/bentoGrid/room.png" className="h-40" />
+                        <img src="/home2-suites-concept/assets/bentoGrid/room.png" className="h-40" />
                     </div>
                     <div className="2xl:max-w-[400px]">
                         <h1 className="text-[24px]/12 font-semibold">Points and Perks</h1>
