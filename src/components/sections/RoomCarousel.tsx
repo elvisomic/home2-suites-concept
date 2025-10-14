@@ -28,13 +28,13 @@ export const RoomCarousel = () => {
           </div>
 
           <motion.div style={{ x }} className="flex gap-[420px]">
-            <img className="w-[400px] h-[500px] xl:w-[600px] xl:h-[500px] rounded-[12px] object-cover object-[62%] -translate-y-8" src="/src/assets/QueenStudio.jpg"></img>
-            <img className="h-[350px] xl:h-[420px] rounded-[12px] object-cover object-[55%] translate-y-62" src="/src/assets/hotel2.jpg"></img>
-            <img className="h-[300px] xl:h-[500px] rounded-[12px] object-cover object-[55%] -translate-y-20" src="/src/assets/DeskInStudio.jpg"></img>
-            <img className="h-[350px] xl:h-[300px] rounded-[12px] object-cover object-[55%] translate-y-80" src="/src/assets/Toilet2.jpg"></img>
-            <img className="h-[300px] xl:h-[390px] rounded-[12px] object-cover object-[55%] -translate-y-25" src="/src/assets/room.jpg"></img>
-            <img className="h-[300px] xl:h-[550px] w-auto rounded-[12px] object-cover object-[55%] translate-y-40" src="/src/assets/QueenCornerRoom.jpg"></img>
-            <img className="h-[350px] xl:h-[500px] w-auto rounded-[12px] object-cover object-[55%] -translate-y-28" src="/src/assets/Toilet1.jpg"></img>
+            <img className="w-[400px] h-[500px] xl:w-[600px] xl:h-[500px] rounded-[12px] object-cover object-[62%] -translate-y-8" src="/home2-suites-concept/assets/QueenStudio.jpg"></img>
+            <img className="h-[350px] xl:h-[420px] rounded-[12px] object-cover object-[55%] translate-y-62" src="/home2-suites-concept/assets/hotel2.jpg"></img>
+            <img className="h-[300px] xl:h-[500px] rounded-[12px] object-cover object-[55%] -translate-y-20" src="/home2-suites-concept/assets/DeskInStudio.jpg"></img>
+            <img className="h-[350px] xl:h-[300px] rounded-[12px] object-cover object-[55%] translate-y-80" src="/home2-suites-concept/assets/Toilet2.jpg"></img>
+            <img className="h-[300px] xl:h-[390px] rounded-[12px] object-cover object-[55%] -translate-y-25" src="/home2-suites-concept/assets/room.jpg"></img>
+            <img className="h-[300px] xl:h-[550px] w-auto rounded-[12px] object-cover object-[55%] translate-y-40" src="/home2-suites-concept/assets/QueenCornerRoom.jpg"></img>
+            <img className="h-[350px] xl:h-[500px] w-auto rounded-[12px] object-cover object-[55%] -translate-y-28" src="/home2-suites-concept/assets/Toilet1.jpg"></img>
           </motion.div>
         </div>
     </section>

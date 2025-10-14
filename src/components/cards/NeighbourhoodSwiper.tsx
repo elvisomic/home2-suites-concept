@@ -48,39 +48,39 @@ export const NeighbourhoodSwiper = () => {
                 <div className="custom-pagination !m-4 !z-20"></div>
                 <SwiperSlide>
                     <Text t="Empire State Building" />
-                    <Slika src="src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg" cName="" />
+                    <Slika src="home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Grand Central Terminal" />
-                    <Slika src="src/assets/NeighbourhoodSection/GrandCentralC.jpg" cName="" />
+                    <Slika src="home2-suites-concept/assets/NeighbourhoodSection/GrandCentralC.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="The Edge" />
-                    <Slika src="src/assets/NeighbourhoodSection/TheEdgeC.jpg" cName="" />
+                    <Slika src="home2-suites-concept/assets/NeighbourhoodSection/TheEdgeC.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Vessel" />
-                    <Slika src="src/assets/NeighbourhoodSection/VesselC.jpg" cName="" />
+                    <Slika src="home2-suites-concept/assets/NeighbourhoodSection/VesselC.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Times Square" />
-                    <Slika src="src/assets/NeighbourhoodSection/TimesSquareC.jpg" cName="" />
+                    <Slika src="home2-suites-concept/assets/NeighbourhoodSection/TimesSquareC.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Museum of Natural History" />
-                    <Slika src="src/assets/NeighbourhoodSection/MuseumNHC.jpg" cName="" />
+                    <Slika src="home2-suites-concept/assets/NeighbourhoodSection/MuseumNHC.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Central Park" />
-                    <Slika src="src/assets/NeighbourhoodSection/CentralParkC.jpg" cName="" />
+                    <Slika src="home2-suites-concept/assets/NeighbourhoodSection/CentralParkC.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Flatiron Building" />
-                    <Slika src="src/assets/NeighbourhoodSection/FlatironC.jpg" cName="" />
+                    <Slika src="home2-suites-concept/assets/NeighbourhoodSection/FlatironC.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Broadway" />
-                    <Slika src="src/assets/NeighbourhoodSection/BroadwayC.jpg" cName="" />
+                    <Slika src="home2-suites-concept/assets/NeighbourhoodSection/BroadwayC.jpg" cName="" />
                 </SwiperSlide>
             </Swiper>
 

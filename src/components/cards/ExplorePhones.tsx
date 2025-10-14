@@ -10,17 +10,17 @@ interface ListProps {
 }
 
 const list: ListProps[] = [
-    { src: "/src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Empire State Building", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { src: "/src/assets/NeighbourhoodSection/FlatironC.jpg", title: "Flatiron Building", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { src: "/src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Central Park", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { src: "/src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Grand Central", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { src: "/src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Zara", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { src: "/src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Macy's", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { src: "/src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "H&M", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { src: "/src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Macy's", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { src: "/src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "H&M", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { src: "/src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Macy's", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { src: "/src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "H&M", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Empire State Building", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/FlatironC.jpg", title: "Flatiron Building", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Central Park", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Grand Central", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Zara", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Macy's", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "H&M", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Macy's", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "H&M", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "Macy's", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { src: "/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg", title: "H&M", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
 ]
 
 export const ExplorePhones: React.FC = () => {
@@ -41,9 +41,9 @@ export const ExplorePhones: React.FC = () => {
                             </div>
                             <div className="flex items-end">
                                 <div className="flex flex-row -my-4">
-                                    <img src="/src/assets/svg/car.svg" className="h-6 my-2" />
+                                    <img src="/home2-suites-concept/assets/svg/car.svg" className="h-6 my-2" />
                                     15m
-                                    <img src="/src/assets/svg/walkingIcon.svg" className="ml-2  h-6" />
+                                    <img src="/home2-suites-concept/assets/svg/walkingIcon.svg" className="ml-2  h-6" />
                                     20m
                                 </div>
                             </div>

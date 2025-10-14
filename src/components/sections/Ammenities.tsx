@@ -21,39 +21,39 @@ export const Ammenities = () => {
                         <h1 className="text-[24px] -mt-8 font-coreR">Our ammenities</h1>
                     </div>
                     <div className="flex flex-row items-center whitespace-nowrap gap-x-2 md:gap-x-1 lg:gap-x-2">
-                        <img src="src/assets/svg/breakfast.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                        <img src="home2-suites-concept/assets/svg/breakfast.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
                         <p className="inline-block text-[11px] xl:text-[16px] ">Free Hot <br/> Breakfast</p>
                     </div>
                     <div className="flex flex-row items-center whitespace-nowrap gap-x-2 md:gap-x-1 lg:gap-x-2">
-                        <img src="src/assets/svg/kitchen.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1 " />
+                        <img src="home2-suites-concept/assets/svg/kitchen.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1 " />
                         <p className="inline-block text-[11px] xl:text-[16px] ">In-Room <br className="2xl:hidden" />Kitchen</p>
                     </div>
                     <div className="flex flex-row items-center whitespace-nowrap gap-x-2 md:gap-x-1 lg:gap-x-2">
-                        <img src="src/assets/svg/gym.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                        <img src="home2-suites-concept/assets/svg/gym.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
                         <p className="inline-block text-[11px] xl:text-[16px] ">Fitness<br className="md:hidden" /> Center</p>
                     </div>
                     <div className="flex flex-row items-center whitespace-nowrap gap-x-2 md:gap-x-1 lg:gap-x-2">
-                        <img src="src/assets/svg/extended-stay.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                        <img src="home2-suites-concept/assets/svg/extended-stay.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
                         <p className="inline-block text-[11px] xl:text-[16px] ">Extended <br className="2xl:hidden" /> Stay</p>
                     </div>
                     <div className="flex flex-row items-center whitespace-nowrap gap-x-2 md:gap-x-1 lg:gap-x-2">
-                        <img src="src/assets/svg/pets.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                        <img src="home2-suites-concept/assets/svg/pets.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
                         <p className="inline-block text-[11px] xl:text-[16px] ">Pet-Friendly <br className="2xl:hidden" /> Rooms</p>
                     </div>
                     <div className="flex flex-row items-center whitespace-nowrap gap-x-2 md:gap-x-1 lg:gap-x-2">
-                        <img src="src/assets/svg/digital-key.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                        <img src="home2-suites-concept/assets/svg/digital-key.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
                         <p className="inline-block text-[11px] xl:text-[16px] ">Digital Key</p>
                     </div>
                     <div className="flex flex-row items-center whitespace-nowrap gap-x-2 md:gap-x-1 lg:gap-x-2">
-                        <img src="src/assets/svg/smoking.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                        <img src="home2-suites-concept/assets/svg/smoking.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
                         <p className="inline-block text-[11px] xl:text-[16px]">Non-Smoking <br className="2xl:hidden" /> Rooms</p>
                     </div>
                     <div className="flex flex-row items-center whitespace-nowrap gap-x-2 md:gap-x-1 lg:gap-x-2">
-                        <img src="src/assets/svg/wifi.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                        <img src="home2-suites-concept/assets/svg/wifi.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
                         <p className="inline-block text-[11px] xl:text-[16px] ">Free Wi-Fi</p>
                     </div>
                     <div className="flex flex-row items-center whitespace-nowrap justify-center md:justify-start gap-x-2 md:gap-x-1 lg:gap-x-2 col-span-2 md:col-span-1">
-                        <img src="src/assets/svg/entertainment.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                        <img src="home2-suites-concept/assets/svg/entertainment.svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
                         <p className="inline-block text-[11px] xl:text-[16px] ">Entertainment</p>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ export const Ammenities = () => {
             <div className="w-full h-240">
                 <div className="grid grid-rows-2 md:grid-cols-2 h-full w-full">
                     <div className="h-120 w-full flex justify-center">
-                        <img src="src/assets/rooftopBar.jpg" className="mt-4 rounded-lg object-cover h-120 w-full" />
+                        <img src="home2-suites-concept/assets/rooftopBar.jpg" className="mt-4 rounded-lg object-cover h-120 w-full" />
                     </div>
 
                     <div className="h- w-full flex flex-wrap items-center">

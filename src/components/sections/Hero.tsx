@@ -61,7 +61,7 @@ export const Hero = () => {
 
     return (
         <section ref={targetRef} className=" lg:h-[180vh]">
-            <div className="sticky top-0 flex items-center h-screen overflow-hidden bg-[url(src/assets/EmpireState.jpg)] bg-cover bg-center">
+            <div className="sticky top-0 flex items-center h-screen overflow-hidden bg-[url(home2-suites-concept/assets/EmpireState.jpg)] bg-cover bg-center">
 
 
                 <motion.div style={{ opacity: opacityOverlay }} className="absolute inset-0 bg-black/40 pointer-events-none z-10"></motion.div>

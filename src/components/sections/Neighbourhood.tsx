@@ -10,23 +10,23 @@ export const Neighbourhood = () => {
             </div>
             <div className="relative lg:grid lg:grid-cols-3 lg:grid-rows-2 2xl:gap-y-[140px] 2xl:mt-25 mb-70 lg:gap-y-[100px] xl:gap-y-[120px] justify-items-center w-full 2xl:gap-x-35 xl:gap-x-48 lg:gap-x-10 ">
 
-                <NeighbourhoodCard imageSrc="src/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg" title="Empire State Building" description="Breathtaking views from New York's most iconic tower" buttonText="EXPLORE" />
+                <NeighbourhoodCard imageSrc="home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg" title="Empire State Building" description="Breathtaking views from New York's most iconic tower" buttonText="EXPLORE" />
 
-                <NeighbourhoodCard imageSrc="src/assets/NeighbourhoodSection/GrandCentralC.jpg" title="Grand Central Terminal" description="A stunning landmark where history meets hustle" buttonText="EXPLORE" offset="translate-y-[100px]" />
+                <NeighbourhoodCard imageSrc="home2-suites-concept/assets/NeighbourhoodSection/GrandCentralC.jpg" title="Grand Central Terminal" description="A stunning landmark where history meets hustle" buttonText="EXPLORE" offset="translate-y-[100px]" />
 
-                <NeighbourhoodCard imageSrc="src/assets/NeighbourhoodSection/TheEdgeC.jpg" title="The Edge" description="Sky-high thrills on Manhattan's boldest observation deck" buttonText="EXPLORE" />
+                <NeighbourhoodCard imageSrc="home2-suites-concept/assets/NeighbourhoodSection/TheEdgeC.jpg" title="The Edge" description="Sky-high thrills on Manhattan's boldest observation deck" buttonText="EXPLORE" />
 
-                <NeighbourhoodCard imageSrc="src/assets/NeighbourhoodSection/VesselC.jpg" title="Vessel" description="Climbable art piece with unforgettable city views" buttonText="EXPLORE" />
+                <NeighbourhoodCard imageSrc="home2-suites-concept/assets/NeighbourhoodSection/VesselC.jpg" title="Vessel" description="Climbable art piece with unforgettable city views" buttonText="EXPLORE" />
 
-                <NeighbourhoodCard imageSrc="src/assets/NeighbourhoodSection/TimesSquareC.jpg" title="Times Square" description="Bright lights and energy at the heart of New York" buttonText="EXPLORE" offset="translate-y-[100px]" />
+                <NeighbourhoodCard imageSrc="home2-suites-concept/assets/NeighbourhoodSection/TimesSquareC.jpg" title="Times Square" description="Bright lights and energy at the heart of New York" buttonText="EXPLORE" offset="translate-y-[100px]" />
 
-                <NeighbourhoodCard imageSrc="src/assets/NeighbourhoodSection/MuseumNHC.jpg" title="American Museum of Natural History" description="Fascinating exhibits and discoveries for all ages" buttonText="EXPLORE" />
+                <NeighbourhoodCard imageSrc="home2-suites-concept/assets/NeighbourhoodSection/MuseumNHC.jpg" title="American Museum of Natural History" description="Fascinating exhibits and discoveries for all ages" buttonText="EXPLORE" />
 
-                <NeighbourhoodCard imageSrc="src/assets/NeighbourhoodSection/CentralParkC.jpg" title="Central Park" description="Endless paths, lakes, and escapes in the city's backyard" buttonText="EXPLORE" />
+                <NeighbourhoodCard imageSrc="home2-suites-concept/assets/NeighbourhoodSection/CentralParkC.jpg" title="Central Park" description="Endless paths, lakes, and escapes in the city's backyard" buttonText="EXPLORE" />
 
-                <NeighbourhoodCard imageSrc="src/assets/NeighbourhoodSection/FlatironC.jpg" title="Flatiron Building" description="A uniquely shaped icon made for photos" buttonText="EXPLORE" offset="translate-y-[100px]" />
+                <NeighbourhoodCard imageSrc="home2-suites-concept/assets/NeighbourhoodSection/FlatironC.jpg" title="Flatiron Building" description="A uniquely shaped icon made for photos" buttonText="EXPLORE" offset="translate-y-[100px]" />
 
-                <NeighbourhoodCard imageSrc="src/assets/NeighbourhoodSection/BroadwayC.jpg" title="Broadway" description="World-class performances on New York’s famous stage" buttonText="EXPLORE" />
+                <NeighbourhoodCard imageSrc="home2-suites-concept/assets/NeighbourhoodSection/BroadwayC.jpg" title="Broadway" description="World-class performances on New York’s famous stage" buttonText="EXPLORE" />
 
             </div>
 
