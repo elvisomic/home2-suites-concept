@@ -8,9 +8,9 @@ export const RoomCarousel = () => {
     target: targetRef,
   });
 
-  const rawx = useTransform(scrollYProgress, [0, 1], ["100%", "-250%"]);
+  const rawx = useTransform(scrollYProgress, [0, 1], ["100%", "-300%"]);
   const x = useSpring(rawx, {
-        stiffness: 80,
+        stiffness: 50,
         damping: 16,
         mass: 1
     });
@@ -27,14 +27,14 @@ export const RoomCarousel = () => {
             Whether enjoying the dazzling city lights from your room or exploring nearby attractions, our prime location ensures an unforgettable stay in the heart of the city.</p>
           </div>
 
-          <motion.div style={{ x }} className="flex gap-[400px]">
-            <img className="w-[300px] h-[400px] xl:w-[350px] xl:h-[450px] rounded-[12px] object-cover object-[62%] -translate-y-8" src="/src/assets/QueenStudio.jpg"></img>
+          <motion.div style={{ x }} className="flex gap-[420px]">
+            <img className="w-[400px] h-[500px] xl:w-[600px] xl:h-[500px] rounded-[12px] object-cover object-[62%] -translate-y-8" src="/src/assets/QueenStudio.jpg"></img>
             <img className="h-[350px] xl:h-[420px] rounded-[12px] object-cover object-[55%] translate-y-62" src="/src/assets/hotel2.jpg"></img>
-            <img className="h-[300px] xl:h-[400px] rounded-[12px] object-cover object-[55%] -translate-y-20" src="/src/assets/DeskInStudio.jpg"></img>
-            <img className="h-[350px] xl:h-[400px] rounded-[12px] object-cover object-[55%] translate-y-46" src="/src/assets/Toilet2.jpg"></img>
-            <img className="h-[300px] xl:h-[400px] rounded-[12px] object-cover object-[55%] -translate-y-25" src="/src/assets/room.jpg"></img>
-            <img className="h-[300px] xl:h-[350px] w-auto rounded-[12px] object-cover object-[55%] translate-y-75" src="/src/assets/QueenCornerRoom.jpg"></img>
-            <img className="h-[350px] xl:h-[400px] w-auto rounded-[12px] object-cover object-[55%] -translate-y-28" src="/src/assets/Toilet1.jpg"></img>
+            <img className="h-[300px] xl:h-[500px] rounded-[12px] object-cover object-[55%] -translate-y-20" src="/src/assets/DeskInStudio.jpg"></img>
+            <img className="h-[350px] xl:h-[300px] rounded-[12px] object-cover object-[55%] translate-y-80" src="/src/assets/Toilet2.jpg"></img>
+            <img className="h-[300px] xl:h-[390px] rounded-[12px] object-cover object-[55%] -translate-y-25" src="/src/assets/room.jpg"></img>
+            <img className="h-[300px] xl:h-[550px] w-auto rounded-[12px] object-cover object-[55%] translate-y-40" src="/src/assets/QueenCornerRoom.jpg"></img>
+            <img className="h-[350px] xl:h-[500px] w-auto rounded-[12px] object-cover object-[55%] -translate-y-28" src="/src/assets/Toilet1.jpg"></img>
           </motion.div>
         </div>
     </section>
