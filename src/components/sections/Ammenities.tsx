@@ -3,7 +3,7 @@
 export const Ammenities = () => {
     return (
         <section className="px-2 sm:px-6 md:px-12 lg:px-16 xl:px-28 2xl:px-32 3xl:px-72 h-auto overflow-hidden ">
-            <div className="w-full flex items-center justify-center h-30 text-[68px]">
+            <div className="font-semibold w-full flex items-center justify-center h-30 text-[68px]">
                 <h1>AMMENITIES</h1>
             </div>
             <div className="grid grid-cols-[49%_2%_49%] w-full h-full mt-10">

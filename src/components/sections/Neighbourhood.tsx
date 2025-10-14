@@ -5,7 +5,7 @@ export const Neighbourhood = () => {
         <section className="hidden lg:block 3xl:px-72 2xl:px-32 lg:px-16 overflow-hidden">
 
             <div className="flex flex-col mt-20 mb-10">
-                <h1 className="flex text-[68px]/25 justify-center font-light">What's Nearby</h1>
+                <h1 className="flex text-[68px]/25 justify-center font-semibold">What's Nearby</h1>
                 <p className="flex text-[20px]/7 justify-center font-light">Conveniently located, our hotel is surrounded by a variety of attractions, dining options, and local landmarks. Guests can easily explore nearby shops, restaurants, and cultural highlights, making it simple to experience the best of the area during their stay.</p>
             </div>
             <div className="relative lg:grid lg:grid-cols-3 lg:grid-rows-2 2xl:gap-y-[140px] 2xl:mt-25 mb-70 lg:gap-y-[100px] xl:gap-y-[120px] justify-items-center w-full 2xl:gap-x-35 xl:gap-x-48 lg:gap-x-10 ">

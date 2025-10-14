@@ -7,7 +7,7 @@ export const Explore = () => {
             <div className="h-200 grid grid-cols-2 grid-rows-[40%_60%]">
                 <div className="h-full flex items-center pl-4 lg:pl-16 xl:pl-28 2xl:pl-32 3xl:pl-72">
                     <div className="h-80 py-12 flex flex-wrap">
-                        <h1 className="md:mt-20 lg:mt-16 md:text-[36px] lg:text-[44px] xl:text-[52px] 2xl:text-[62px] whitespace-nowrap">Explore New York City</h1>
+                        <h1 className="font-semibold md:mt-20 lg:mt-16 md:text-[36px] lg:text-[44px] xl:text-[52px] 2xl:text-[62px] whitespace-nowrap">Explore New York City</h1>
                         <p className="text-[16px]/ mx-1">Discover top attractions and see how<br />close they are.</p>
                     </div>
                 </div>
