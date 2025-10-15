@@ -11,7 +11,6 @@ import { RoomCarousel } from "./components/sections/RoomCarousel";
 import { Layout } from "./components/shared/Layout"
 import { ExplorePhones } from "./components/cards/ExplorePhones";
 import { BenefitsPhone } from "./components/cards/BenefitsPhones";
-import { Disclaimer } from "src/components/sections/disclaimer";
 
 function App() {
 
@@ -28,7 +27,6 @@ function App() {
     <Neighbourhood />
     <ExplorePhones />
     <Explore />
-    <Disclaimer />
   </Layout>
 }
 
