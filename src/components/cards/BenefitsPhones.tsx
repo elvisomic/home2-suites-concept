@@ -24,7 +24,7 @@ export const BenefitsPhone = () => {
                 <p className="flex mt-4 text-[15px] sm:text-[20px]/7 justify-center font-light">Hilton Honors Member Benefits give guests exclusive savings, the ability to earn rewards, and access to convenient digital tools that make every stay easier and more rewarding.</p>
             </div>
             <div className="grid grid-rows-6 w-full h-140 divide-y divide-bg">
-                <Benefit src="dollar.svg" pText="Hilton Honors Discount Rate gives members exclusive savings on stays and lets them earn reward points." hText="Hilton Honors Discount rate" cName="rounded-t-xl" />
+                <Benefit src="dollar.svg" pText="Hilton Honors Discount Rate gives members exclusive savings on stays and lets them earn reward points." hText="Hilton Honors Discount" cName="rounded-t-xl" />
                 <Benefit src="points.svg" pText="Earn points on every stay and redeem them for free nights, upgrades, and more rewards." hText="Points & Perks" />
                 <Benefit src="room.svg" pText="Select your preferred room in advance for a stay that suits you best." hText="Choose Your Room" />
                 <Benefit src="checkin.svg" pText="Skip the front desk and check in seamlessly using your phone." hText="Digital Check-In" />

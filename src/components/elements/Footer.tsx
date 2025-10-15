@@ -1,3 +1,9 @@
+const FooterLink = ({ href, text }: { href?:string, text:string }) => {
+    return (
+        <a href={`${href}`} className="font-light cursor-pointer hover:underline">{text}</a>
+    )
+}
+
 export const Footer = () => {
     return (
         <footer className="relative h-150 bg-white px-2 2xl:px-72 2xl:py-24 md:px-8 lg:px-24 xl:px-32 py-16">
@@ -44,12 +50,12 @@ export const Footer = () => {
 
 
             <div className="flex justify-between items-center w-full flex-wrap">
-                <div className="flex flex-row gap-x-6 md:gap-x-12 flex-wrap text-[12px] md:text-[20px]">
-                    <a className="font-light cursor-pointer hover:underline">ABOUT US</a>
-                    <a className="font-light cursor-pointer hover:underline">CONTACT US</a>
-                    <a className="font-light cursor-pointer hover:underline">HELP</a>
-                    <a className="font-light cursor-pointer hover:underline">PRIVACY POLICY</a>
-                    <a href="#disclaimer" className="font-light cursor-pointer hover:underline">DISCLAIMER</a>
+                <div className="flex flex-row gap-x-4 md:gap-x-12 flex-wrap text-[12px] md:text-[20px]">
+                    <FooterLink text="ABOUT US" />
+                    <FooterLink text="CONTACT US" />
+                    <FooterLink text="HELP" />
+                    <FooterLink text="PRIVACY POLICY" />
+                    <FooterLink text="DISCLAIMER" href="#disclaimer" />
                 </div>
                 <div className="text-[20px] font-light mt-4 sm:mt-0">
                     Showcase Project • Elvis Omić
