@@ -64,7 +64,8 @@ export const Hero = () => {
             <div className="sticky top-0 flex items-center h-screen overflow-hidden bg-[url(/home2-suites-concept/assets/EmpireState.jpg)] bg-cover bg-center">
 
 
-                <motion.div style={{ opacity: opacityOverlay }} className="absolute inset-0 bg-black/40 pointer-events-none z-10"></motion.div>
+                <motion.div style={{ opacity: opacityOverlay }} className="hidden lg:block absolute inset-0 bg-black/40 pointer-events-none z-10"></motion.div>
+                <div className="lg:hidden absolute inset-0 bg-black/40 pointer-events-none z-10"></div>
                 <motion.svg style={{ scale, opacity }} className="hidden lg:block absolute inset-0 w-full h-full z-20">
                     <motion.g>
                         <mask id="text-mask">
