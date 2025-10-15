@@ -65,7 +65,7 @@ export const Hero = () => {
 
 
                 <motion.div style={{ opacity: opacityOverlay }} className="absolute inset-0 bg-black/40 pointer-events-none z-10"></motion.div>
-                <motion.svg style={{ scale, opacity }} className="absolute inset-0 w-full h-full z-20">
+                <motion.svg style={{ scale, opacity }} className="hidden lg:block absolute inset-0 w-full h-full z-20">
                     <motion.g>
                         <mask id="text-mask">
                             <rect width="100%" height="100%" fill="white" />
@@ -81,11 +81,11 @@ export const Hero = () => {
                 <div id="home" className="h-screen">
 
                     <motion.div style={{ y: yText }} className="hidden lg:block z-10 absolute bottom-45 sm:mx-6 md:mx-12 lg:mx-16 xl:mx-28 2xl:mx-32 3xl:mx-72">
-                        <h1 className="text-white text-[64px]">Your Modern Stay in the Heart of Times Square</h1>
+                        <h1 className="text-white lg:text-[36px] xl:text-[44px] 2xl:text-[52px] 3xl:text-[56px]">Your Modern Stay in the Heart of Times Square</h1>
                     </motion.div>
 
                     <div className="md:hidden absolute bottom-12 w-full px-4 z-20">
-                        <h1 className="text-white text-[22px] my-4 sm:text-[30px] whitespace">Your Modern Stay in the Heart of Times Square</h1>
+                        <h1 className="text-white text-[22px] my-4 mx-2 sm:text-[28px] whitespace">Your Modern Stay in the Heart of Times Square</h1>
                         <BookingPhones />
                     </div>
 
