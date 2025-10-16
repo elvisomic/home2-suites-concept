@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Footer } from "../elements/Footer";
-import { Navbar } from "../elements/Navbar";
+import { Navbar, NavbarPhones } from "../elements/Navbar";
 
 interface LayoutProps {
     title: string;
@@ -41,6 +41,7 @@ export const Layout = ({ title, children }: LayoutProps) => {
 return (
     <>
         <Navbar />
+        <NavbarPhones />
 
         <main className="">
             {children}
