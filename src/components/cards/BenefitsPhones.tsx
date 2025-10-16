@@ -18,10 +18,10 @@ const Benefit = ({ src, pText, hText, cName }: { src: string, pText: string, hTe
 
 export const BenefitsPhone = () => {
     return (
-        <section className="lg:hidden px-4 sm:px-6 bg-gray-200 h-180 py-12">
+        <section id="hiltonplus" className="lg:hidden px-4 sm:px-6 bg-gray-200 h-180 py-12">
             <div className="flex flex-col mb-12">
-                <h1 className="flex text-[28px] sm:text-[44px] justify-center font-light">Hilton Honors Member Benefits</h1>
-                <p className="flex mt-4 text-[15px] sm:text-[20px]/7 justify-center font-light">Hilton Honors Member Benefits give guests exclusive savings, the ability to earn rewards, and access to convenient digital tools that make every stay easier and more rewarding.</p>
+                <h1 className="flex text-[24px] sm:text-[40px] justify-center font-semibold">Hilton Honors Member Benefits</h1>
+                <p className="flex mt-4 text-[14px] sm:text-[20px]/7 justify-center text-center font-light">Hilton Honors Member Benefits give guests exclusive savings, the ability to earn rewards, and access to convenient digital tools that make every stay easier and more rewarding.</p>
             </div>
             <div className="grid grid-rows-6 w-full h-140 divide-y divide-bg">
                 <Benefit src="dollar.svg" pText="Hilton Honors Discount Rate gives members exclusive savings on stays and lets them earn reward points." hText="Hilton Honors Discount" cName="rounded-t-xl" />
