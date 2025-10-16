@@ -63,18 +63,18 @@ export const Ammenities = () => {
 
             </div>
 
-            <div className="w-full h-240">
+            <div className="w-full h-140">
                 <div className="grid grid-rows-2 md:grid-cols-2 h-full w-full">
                     <div className="h-120 w-full flex justify-center">
                         <img src="/home2-suites-concept/assets/rooftopBar.jpg" className="mt-4 rounded-lg object-cover h-120 w-full" />
                     </div>
 
                     <div className="w-full flex flex-wrap items-center">
-                        <div className="h-50 flex flex-wrap justify-center md:justify-start gap-y-6 mx-4">
-                            <h1 className="opacity-70 text-[32px] md:text-[28px] font-coreR">Interlude Rooftop Lounge</h1>
-                            <p className="text-[16px] md:text-[16px] lg:text-[20px] font-light">Escape to the sky above Times Square at Interlude Rooftop Lounge. Sip on handcrafted cocktails and share gourmet bites in an elevated atmosphere that's both chic and inviting. Our expert mixologists craft signature drinks with flair, while you take in sweeping views of New York City and enjoy attentive, personalized service.</p>
+                        <div className="h-50 flex flex-wrap justify-center md:justify-start gap-y-6 mx-4 mt-4">
+                            <h1 className="opacity-70 text-[28px] md:text-[28px] font-semibold">Interlude Rooftop Lounge</h1>
+                            <p className="text-[16px] md:text-[16px] lg:text-[20px] font-light text-center md:text-start">Escape to the sky above Times Square at Interlude Rooftop Lounge. Sip on handcrafted cocktails and share gourmet bites in an elevated atmosphere that's both chic and inviting. Our expert mixologists craft signature drinks with flair, while you take in sweeping views of New York City and enjoy attentive, personalized service.</p>
                         </div>
-                        <div className="h-8 w-full mx-4">
+                        <div className="h-8 w-full mx-4 mt-36">
                             <div className="flex w-full font-normal">
 
                                 <div className="w-full h-6 flex justify-start">

@@ -1,7 +1,7 @@
 const Slika = ({ src, cName }: { src: string, cName: string }) => {
     return (
         <section>
-            <img src={src} className={`object-cover w-full transform transition-transform duration-400 hover:scale-120 ${cName} h-140`} />
+            <img src={src} className={`object-cover w-full transform transition-transform duration-400 hover:scale-120 ${cName} h-140`} loading='lazy' />
         </section>
     )
 }
@@ -24,7 +24,7 @@ export const NeighbourhoodSwiper = () => {
         <section className="lg:hidden relative flex flex-wrap justify-center h-auto overflow-hidden ml-4">
             <div className="flex flex-col mt-20 mb-10 mr-4">
                 <h1 className="flex text-[52px]/25 justify-center whitespace-nowrap font-semibold">What's Nearby</h1>
-                <p className="flex text-[20px]/7 justify-center font-light">Conveniently located, our hotel is surrounded by a variety of attractions, dining options, and local landmarks. Guests can easily explore nearby shops, restaurants, and cultural highlights, making it simple to experience the best of the area during their stay.</p>
+                <p className="flex text-[20px]/7 justify-center font-light text-center ">Conveniently located, our hotel is surrounded by a variety of attractions, dining options, and local landmarks. Guests can easily explore nearby shops, restaurants, and cultural highlights, making it simple to experience the best of the area during their stay.</p>
             </div>
 
             <Swiper className=""

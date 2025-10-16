@@ -6,7 +6,7 @@ const FooterLink = ({ href, text }: { href?:string, text:string }) => {
 
 export const Footer = () => {
     return (
-        <footer className="relative h-150 bg-white px-2 2xl:px-72 2xl:py-24 md:px-8 lg:px-24 xl:px-32 py-16">
+        <footer className="relative h-150 bg-white px-2 2xl:px-72 2xl:py-24 md:px-8 lg:px-24 xl:px-32 py-16 mb-24">
             <hr className="border-1 border-[#AAAD00]" />
 
             <div className="h-full md:grid md:grid-cols-[50%_50%] items-center md:px-4 lg:px-20 py-8 justify-center">

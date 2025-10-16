@@ -1,6 +1,6 @@
 const Button = () => {
     return (
-        <button className="hover:bg-gray-200 transition ease-in-out duration-300 mt-8 h-16 w-50 p-2 rounded bg-gray-300">JOIN HILTON HONORS</button>
+        <button className="hover:bg-[#AAAD00]/70 transition ease-in-out duration-300 mt-8 h-16 w-50 p-2 rounded bg-[#AAAD00] text-white">JOIN HILTON HONORS</button>
     )
 }
 
