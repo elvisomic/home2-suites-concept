@@ -2,24 +2,23 @@ import React from "react"
 
 interface ListProps {
     title: string,
-    desc: string,
     carTime: string,
     walkTime: string,
     miles?: string
 }
 
 const list: ListProps[] = [
-    { title: "Empire State Building", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { title: "Flatiron Building", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { title: "Central Park", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { title: "Grand Central Terminal", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { title: "Zara", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { title: "Macy's", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { title: "H&M", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { title: "Macy's", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { title: "H&M", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { title: "Macy's", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
-    { title: "H&M", desc: "EMP", carTime: "11min", walkTime: "15min", miles: "1 mile" },
+    { title: "Empire State Building", carTime: "10min", walkTime: "20min", miles: "0.9 mile" },
+    { title: "Flatiron Building", carTime: "15min", walkTime: "30min", miles: "1.5 mile" },
+    { title: "Central Park", carTime: "5min", walkTime: "12min", miles: "0.6 mile" },
+    { title: "Grand Central Terminal", carTime: "4min", walkTime: "10min", miles: "0.8 mile" },
+    { title: "Zara Fifth Avenue", carTime: "4m", walkTime: "10m", miles: "0.5 mile" },
+    { title: "Macy's Herald Square", carTime: "5m", walkTime: "17m", miles: "0.7 mile" },
+    { title: "Rockefeller Center", carTime: "3m", walkTime: "5m", miles: "0.1 mile" },
+    { title: "Chelsea Market", carTime: "20m", walkTime: "45m", miles: "2 miles" },
+    { title: "The High Line", carTime: "12m", walkTime: "30m", miles: "1.3 mile" },
+    { title: "Broadway Theatre", carTime: "11m", walkTime: "7m", miles: "0.3 mile" },
+    { title: "H&M Times Square", carTime: "1m", walkTime: "4m", miles: "0.3 mile" },
 ]
 
 const ListCard: React.FC = () => {
