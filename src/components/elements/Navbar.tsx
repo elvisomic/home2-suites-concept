@@ -1,9 +1,9 @@
 const navItems = [
   { href: "#home", text: "HOME" },
-  { href: "#rooms", text: "ROOMS" },
-  { href: "#hiltonplus", text: "HILTON+" },
-  { href: "#explore", text: "EXPLORE" },
-  { href: "#ammenities", text: "AMMENITIES" }
+  { href: "#roomsPC", text: "ROOMS" },
+  { href: "#ammenities", text: "AMMENITIES" },
+  { href: "#hiltonplusPC", text: "HILTON+" },
+  { href: "#explorePC", text: "EXPLORE" },
 ]
 
 const navItemsPhone = [

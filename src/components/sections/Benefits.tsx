@@ -6,7 +6,7 @@ const Button = () => {
 
 export const Benefits = () => {
     return (
-        <section id="hiltonplus" className="hidden h-auto lg:block mb-20 lg:px-16 xl:px-28 2xl:px-32 3xl:px-72 py-1">
+        <section id="hiltonplusPC" className="hidden h-auto lg:block mb-20 lg:px-16 xl:px-28 2xl:px-32 3xl:px-72 py-1">
 
             <div className="flex flex-col mt-20 mb-4">
                 <h1 className="flex md:text-[36px] lg:text-[48px] 2xl:text-[68px]/28 justify-center font-semibold">Hilton Honors Member Benefits</h1>

@@ -24,46 +24,46 @@ export const Ammenities = () => {
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
                             <img src="/home2-suites-concept/assets/svg/breakfast.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
-                            <p className="inline-block text-[11px] xl:text-[16px] ">Free Hot <br className="2xl:hidden" /> Breakfast</p>
+                            <p className="inline-block text-[11px] lg:text-[16px] ">Free Hot <br className="2xl:hidden" /> Breakfast</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
                             <img src="/home2-suites-concept/assets/svg/kitchen.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1 " />
-                            <p className="inline-block text-[11px] xl:text-[16px] ">In-Room <br className="2xl:hidden" />Kitchen</p>
+                            <p className="inline-block text-[11px] lg:text-[16px] ">In-Room <br className="2xl:hidden" />Kitchen</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
                             <img src="/home2-suites-concept/assets/svg/gym.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
-                            <p className="inline-block text-[11px] xl:text-[16px] ">Fitness<br className="md:hidden" /> Center</p>
+                            <p className="inline-block text-[11px] lg:text-[16px] ">Fitness<br className="md:hidden" /> Center</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
                             <img src="/home2-suites-concept/assets/svg/extended-stay.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
-                            <p className="inline-block text-[11px] xl:text-[16px] ">Extended <br className="2xl:hidden" /> Stay</p>
+                            <p className="inline-block text-[11px] lg:text-[16px] ">Extended <br className="2xl:hidden" /> Stay</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
                             <img src="/home2-suites-concept/assets/svg/pets.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
-                            <p className="inline-block text-[11px] xl:text-[16px] ">Pet-Friendly <br className="2xl:hidden" /> Rooms</p>
+                            <p className="inline-block text-[11px] lg:text-[16px] ">Pet-Friendly <br className="2xl:hidden" /> Rooms</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
                             <img src="/home2-suites-concept/assets/svg/digital-key.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
-                            <p className="inline-block text-[11px] xl:text-[16px] ">Digital Key</p>
+                            <p className="inline-block text-[11px] lg:text-[16px] ">Digital Key</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
                             <img src="/home2-suites-concept/assets/svg/smoking.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
-                            <p className="inline-block text-[11px] xl:text-[16px]">Non-Smoking <br className="2xl:hidden" /> Rooms</p>
+                            <p className="inline-block text-[11px] lg:text-[16px]">Non-Smoking <br className="2xl:hidden" /> Rooms</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
                             <img src="/home2-suites-concept/assets/svg/wifi.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
-                            <p className="inline-block text-[11px] xl:text-[16px] ">Free Wi-Fi</p>
+                            <p className="inline-block text-[11px] lg:text-[16px] ">Free Wi-Fi</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap justify-center md:justify-start gap-x-2 md:gap-x-1 lg:gap-x-2 col-span-2 md:col-span-1">
                             <img src="/home2-suites-concept/assets/svg/entertainment.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
-                            <p className="inline-block text-[11px] xl:text-[16px] ">Entertainment</p>
+                            <p className="inline-block text-[11px] lg:text-[16px] ">Entertainment</p>
                         </div>
                     </div>
                 </div>
 
             </div>
 
-            <div className="w-full h-140">
+            <div className="w-full h-auto">
                 <div className="grid grid-rows-2 md:grid-cols-2 h-full w-full">
                     <div className="h-120 w-full flex justify-center">
                         <img src="/home2-suites-concept/assets/rooftopBar.jpg" className="mt-4 rounded-lg object-cover h-120 w-full" />
@@ -71,7 +71,7 @@ export const Ammenities = () => {
 
                     <div className="w-full flex flex-wrap items-center">
                         <div className="h-50 flex flex-wrap justify-center md:justify-start gap-y-6 mx-4 mt-4">
-                            <h1 className="opacity-70 text-[28px] md:text-[28px] font-semibold">Interlude Rooftop Lounge</h1>
+                            <h1 className="text-[28px] md:text-[28px] font-semibold">Interlude Rooftop Lounge</h1>
                             <p className="text-[16px] md:text-[16px] lg:text-[20px] font-light text-center md:text-start">Escape to the sky above Times Square at Interlude Rooftop Lounge. Sip on handcrafted cocktails and share gourmet bites in an elevated atmosphere that's both chic and inviting. Our expert mixologists craft signature drinks with flair, while you take in sweeping views of New York City and enjoy attentive, personalized service.</p>
                         </div>
                         <div className="h-8 w-full mx-4 mt-36">
