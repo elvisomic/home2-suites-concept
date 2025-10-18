@@ -60,7 +60,7 @@ export const NeighbourhoodSwiper = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Vessel" />
-                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/VesselC.jpg" cName="" />
+                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/vesselTest.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Times Square" />
