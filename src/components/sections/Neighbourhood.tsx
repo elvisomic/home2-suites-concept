@@ -14,9 +14,9 @@ export const Neighbourhood = () => {
 
                 <NeighbourhoodCard imageSrc="/home2-suites-concept/assets/NeighbourhoodSection/GrandCentralC.jpg" title="Grand Central Terminal" description="A stunning landmark where history meets hustle" buttonText="EXPLORE" offset="translate-y-[100px]" />
 
-                <NeighbourhoodCard imageSrc="/home2-suites-concept/assets/NeighbourhoodSection/TheEdgeC.jpg" title="The Edge" description="Sky-high thrills on Manhattan's boldest observation deck" buttonText="EXPLORE" />
+                <NeighbourhoodCard imageSrc="/home2-suites-concept/assets/NeighbourhoodSection/edgeTest.avif" title="The Edge" description="Sky-high thrills on Manhattan's boldest observation deck" buttonText="EXPLORE" />
 
-                <NeighbourhoodCard imageSrc="/home2-suites-concept/assets/NeighbourhoodSection/VesselC.jpg" title="Vessel" description="Climbable art piece with unforgettable city views" buttonText="EXPLORE" />
+                <NeighbourhoodCard imageSrc="/home2-suites-concept/assets/NeighbourhoodSection/vesselTest.jpg" title="Vessel" description="Climbable art piece with unforgettable city views" buttonText="EXPLORE" />
 
                 <NeighbourhoodCard imageSrc="/home2-suites-concept/assets/NeighbourhoodSection/TimesSquareC.jpg" title="Times Square" description="Bright lights and energy at the heart of New York" buttonText="EXPLORE" offset="translate-y-[100px]" />
 

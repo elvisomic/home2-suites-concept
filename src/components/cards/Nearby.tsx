@@ -36,7 +36,7 @@ const ListCard: React.FC = () => {
                         </div>
                         <div className=" flex flex-row overflow-hidden h-9">
                             <img src="/home2-suites-concept/assets/svg/car.svg" className="opacity-60 ml-6 mt-2 h-10 overflow-hidden" />
-                            <p className="mt-1 ml-1">{item.carTime}</p>
+                            <p className="mt-1 ml-1 min-w-12">{item.carTime}</p>
                             <img src="/home2-suites-concept/assets/svg/walkingIcon.svg" className="opacity-60 ml-2 -mt-1 h-10" />
                             <p className="mt-1 ml-1">{item.walkTime}</p>
                         </div>
