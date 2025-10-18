@@ -39,9 +39,9 @@ export const ExplorePhones: React.FC = () => {
                             </div>
                             <div className="flex items-end">
                                 <div className="flex flex-row -my-4">
-                                    <img src="/home2-suites-concept/assets/svg/car.svg" className="h-6 my-2" />
+                                    <img src="/home2-suites-concept/assets/svg/car.svg" className="opacity-70 h-6 my-2" />
                                     {item.carTime}
-                                    <img src="/home2-suites-concept/assets/svg/walkingIcon.svg" className="ml-2  h-6" />
+                                    <img src="/home2-suites-concept/assets/svg/walkingIcon.svg" className="opacity-70 ml-2 h-6" />
                                     {item.walkTime}
                                 </div>
                             </div>
