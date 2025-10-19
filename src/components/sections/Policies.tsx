@@ -9,7 +9,7 @@ export const Policies = () => {
   return (
     <section id="policies" className="overflow-hidden h-auto px-4 sm:px-6 md:px-12 lg:px-16 xl:px-28 2xl:px-32 3xl:px-72 py-16">
       <div className="flex justify-center">
-        <h1 className="text-[48px] font-semibold">HOTEL POLICIES</h1>
+        <h1 className="text-[40px] font-semibold">HOTEL POLICIES</h1>
       </div>
       <div className="bg-gray-300 h-auto rounded-xl">
         <div className=" w-full mt-12 flex flex-row items-start">

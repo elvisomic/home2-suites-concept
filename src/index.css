@@ -172,48 +172,27 @@ html {
 
 }
 
-
-.swiper-button-next,
-.swiper-button-prev {
-    @apply w-12 h-12 bg-[#1caefc] backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg transition-transform duration-300;
-}
-
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-    @apply scale-150 bg-[#1caefc]/70;
-}
-
-.swiper-button-next::after,
-.swiper-button-prev::after {
-    @apply font-[40px] text-white
-}
-
-.swiper-button-next {
-    right: 1rem;
-}
-
-.swiper-button-prev {
-    left: 1rem;
-}
-
 .custom-pagination {
     @apply !absolute !text-[24px] !text-white !font-mono;
 }
 
 
-
-.customNavNext {
-    @apply rounded-[50%] border-2 flex items-center h-10 w-10 ml-10
+.custom-pagination-room {
+    @apply !text-[24px] !text-black !font-mono;
 }
 
-.customNavNext:hover {
-    @apply transition ease-in-out duration-600 bg-black
+.customNavNext {
+    @apply rounded-full border-2 flex items-center h-10 w-10
+}
+
+.customNavNext:active {
+    @apply bg-black scale-120 transition-transform text-white
 }
 
 .customNavPrev {
-    @apply rounded-[50%] border-2 flex items-center h-10 w-10
+    @apply rounded-full border-2 flex items-center h-10 w-10
 }
 
-.customNavPrev:hover {
-    @apply transition ease-in-out duration-600 bg-black
+.customNavPrev:active {
+    @apply bg-black scale-120 transition-transform text-white
 }
