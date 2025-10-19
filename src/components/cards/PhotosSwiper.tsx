@@ -14,7 +14,7 @@ const Button = ({ href }: { href?: string }) => {
 }
 
 const Text = ({ t, cName }: { t: string, cName?: string }) => {
-    return <h1 className={`absolute text-[32px] xl:text-[42px] text-white/80 z-20 mt-4 ml-4 xl:ml-8 ${cName}`}>{t}</h1>
+    return <h1 className={`absolute text-[28px] text-white/80 z-20 mt-4 ml-4 ${cName}`}>{t}</h1>
 }
 
 import { Swiper, SwiperSlide } from 'swiper/react';
