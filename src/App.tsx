@@ -11,12 +11,14 @@ import { RoomCarousel } from "./components/sections/RoomCarousel";
 import { Layout } from "./components/shared/Layout"
 import { ExplorePhones } from "./components/cards/ExplorePhones";
 import { BenefitsPhone } from "./components/cards/BenefitsPhones";
+import { RoomSwiperPhone } from "./components/cards/RoomSwiperPhone";
 
 function App() {
 
   return <Layout title="Home2 Suites - Times Square">
     <Hero />
     <RoomCarousel />
+    <RoomSwiperPhone />
     <Ammenities />
     <Policies />
     <BenefitsPhone />
