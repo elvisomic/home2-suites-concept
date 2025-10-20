@@ -12,6 +12,7 @@ import { Layout } from "./components/shared/Layout"
 import { ExplorePhones } from "./components/cards/ExplorePhones";
 import { BenefitsPhone } from "./components/cards/BenefitsPhones";
 import { RoomSwiperPhone } from "./components/cards/RoomSwiperPhone";
+import { Disclaimer } from "./components/sections/Disclaimer";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
     <Neighbourhood />
     <ExplorePhones />
     <Explore />
+    <Disclaimer />
   </Layout>
 }
 
