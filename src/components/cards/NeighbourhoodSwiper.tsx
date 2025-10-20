@@ -7,7 +7,7 @@ const Slika = ({ src, cName }: { src: string, cName: string }) => {
 }
 
 const Text = ({ t, cName }: { t: string, cName?: string }) => {
-    return <h1 className={`absolute text-[32px] xl:text-[42px] text-white z-20 mt-4 ml-4 xl:ml-8 ${cName}`}>{t}</h1>
+    return <h1 className={`absolute text-[32px] xl:text-[42px] text-neutral-800 z-20 ml-4 xl:ml-8 ${cName}`}>{t}</h1>
 }
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -73,13 +73,10 @@ export const NeighbourhoodSwiper = () => {
                 <SwiperSlide>
                     <Text t="Central Park" />
                     <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/centralPark2.jpg" cName="" />
-                    <div className="absolute inset-0 bg-black/60 pointer-events-none z-10"></div>
-
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Flatiron Building" />
                     <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/Flatiron2.jpg" cName="" />
-                    <div className="absolute inset-0 bg-black/50 pointer-events-none z-10"></div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Broadway" />
