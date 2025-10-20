@@ -26,7 +26,7 @@ export const BenefitsPhone = () => {
     return (
         <section id="hiltonplus" className="lg:hidden px-4 sm:px-6 bg-gray-200 h-300 py-12">
             <div className="flex flex-col mb-12">
-                <h1 className="flex text-[28px] font-semibold">Hilton Honors Benefits</h1>
+                <h1 className="flex text-[40px] font-semibold">Hilton Honors Benefits</h1>
                 <p className="flex mt-4 text-[16px] sm:text-[20px]/7 font-light">Hilton Honors Member Benefits give guests exclusive savings, the ability to earn rewards, and access to convenient digital tools that make every stay easier and more rewarding.</p>
             </div>
             <div className="grid grid-rows-4 w-full h-140 divide-y divide-bg">

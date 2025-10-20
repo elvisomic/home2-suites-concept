@@ -3,12 +3,10 @@
 export const Ammenities = () => {
     return (
         <section id="ammenities" className="px-4 sm:px-6 md:px-12 lg:px-16 xl:px-28 2xl:px-32 3xl:px-72 h-auto overflow-hidden ">
-            <div className="font-semibold w-full flex items-center justify-center h-20 text-[44px] sm:text-[60px]">
-                <h1>AMMENITIES</h1>
-            </div>
+
             <div className="grid grid-rows-[30%_70%] sm:grid-rows-1 sm:grid-cols-[49%_2%_49%] w-full mt-10">
                 <div className="flex flex-col gap-y-10 mx-4 sm:mx-0 md:gap-y-20 3xl:max-w-[620px] sm:max-w-[500px]">
-                    <h1 className="text-[28px] font-semibold">Moments from Broadway</h1>
+                    <h1 className="text-[40px] sm:text-[28px] font-semibold">Moments from Broadway</h1>
                     <p className="text-[16px] lg:text-[20px] sm:mx-0 font-light"> Stay in the heart of Times Square, steps from Broadway, the subway, and a world of dining. Iconic spots like Macy's, the Empire State Building, Grand Central, Madison Square Garden, and Penn Station are all within a mile. Enjoy complimentary WiFi and breakfast, a fully equipped fitness center, business services, and unwind at our Rooftop Lounge or Lobby Bar. </p>
                 </div>
 
@@ -16,11 +14,11 @@ export const Ammenities = () => {
                     <div className="w-1/10 h-130 bg-bg"></div>
                 </div>
 
-                <div className="flex justify-center">
+                <div className=" flex justify-center">
 
                     <div className="mt-20 sm:mt-0 sm:h-150 md:h-100 grid grid-cols-2 grid-rows-5 sm:grid-rows-10 md:grid-cols-3 md:grid-rows-4 gap-x-5 lg:gap-x-16  md:gap-x-16 gap-y-8  sm:px-2 md:px-4 xl:px-6 xl:whitespace-nowrap">
                         <div className="col-span-2 md:col-span-3">
-                            <h1 className="text-[28px] font-semibold text-center md:text-start">Our ammenities</h1>
+                            <h1 className="mt-8 sm:mt-0 text-[40px] sm:text-[28px] font-semibold ">Our ammenities</h1>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
                             <img src="/home2-suites-concept/assets/svg/breakfast.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />

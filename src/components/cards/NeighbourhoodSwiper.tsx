@@ -23,7 +23,7 @@ export const NeighbourhoodSwiper = () => {
     return (
         <section className="lg:hidden relative flex flex-wrap justify-center h-auto overflow-hidden ml-4">
             <div className="flex flex-col mt-20 mb-10 mr-4">
-                <h1 className="flex text-[28px]/12 whitespace-nowrap font-semibold">What's Nearby</h1>
+                <h1 className="flex text-[40px] whitespace-nowrap font-semibold">What's Nearby</h1>
                 <p className="flex text-[16px]/7 font-light ">Conveniently located, our hotel is surrounded by a variety of attractions, dining options, and local landmarks. Guests can easily explore nearby shops, restaurants, and cultural highlights, making it simple to experience the best of the area during their stay.</p>
             </div>
 
@@ -48,11 +48,11 @@ export const NeighbourhoodSwiper = () => {
                 <div className="custom-pagination !m-4 !z-20"></div>
                 <SwiperSlide>
                     <Text t="Empire State Building" />
-                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuildingC.jpg" cName="" />
+                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/EmpireStateBuilding2.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Grand Central Terminal" />
-                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/GrandCentralC.jpg" cName="" />
+                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/grandCentral2.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="The Edge" />
@@ -64,19 +64,22 @@ export const NeighbourhoodSwiper = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Times Square" />
-                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/TimesSquareC.jpg" cName="" />
+                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/timesSquare2.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Museum of Natural History" />
-                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/MuseumNHC.jpg" cName="" />
+                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/museum2.jpg" cName="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Central Park" />
-                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/CentralParkC.jpg" cName="" />
+                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/centralPark2.jpg" cName="" />
+                    <div className="absolute inset-0 bg-black/60 pointer-events-none z-10"></div>
+
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Flatiron Building" />
-                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/FlatironC.jpg" cName="" />
+                    <Slika src="/home2-suites-concept/assets/NeighbourhoodSection/Flatiron2.jpg" cName="" />
+                    <div className="absolute inset-0 bg-black/50 pointer-events-none z-10"></div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Text t="Broadway" />

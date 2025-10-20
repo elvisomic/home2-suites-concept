@@ -21,7 +21,7 @@ export const RoomCarousel = () => {
       <div className="z-0 sticky top-0 flex items-center h-screen overflow-hidden">
 
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-[4px] xl:px-[288px] md:px-[60px] lg:px-[80px] 2xl:px-[430px]">
-            <h1 className="text-[38px] 2xl:text-[68px]/25 font-semibold ">ACCOMMODATION</h1>
+            <h1 className="text-[40px] 2xl:text-[68px]/25 font-semibold ">ACCOMMODATION</h1>
             <p className="2xl:text-[20px]/7 font-light ">Our hotel offers modern, comfortable accommodations with stunning views of Times Square, placing you in the center of New York City's vibrant energy. 
             Just steps from theaters, restaurants, shopping, and cultural landmarks, you'll have everything at your fingertips. 
             Whether enjoying the dazzling city lights from your room or exploring nearby attractions, our prime location ensures an unforgettable stay in the heart of the city.</p>

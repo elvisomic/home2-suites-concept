@@ -25,7 +25,7 @@ export const RoomSwiperPhone = () => {
   return (
     <section id="rooms" className="lg:hidden pl-4 py-4 sm:pl-6 md:pl-12">
       <div className=" h-60 w-full py-12 md:py-6 ">
-        <h1 className="font-semibold text-[28px]/12">ACCOMMODATION</h1>
+        <h1 className="font-semibold text-[40px]">ACCOMMODATION</h1>
         <p className="font-light text-[16px] sm:text-[20px]">Modern, comfortable accommodations with stunning Times Square views, steps from theaters,
           restaurants, and landmarks. Your unforgettable New York stay awaits.</p>
       </div>
@@ -64,7 +64,7 @@ export const RoomSwiperPhone = () => {
             <SwiperSlide key={item.imgSrc}>
               <img
                 src={`/home2-suites-concept/assets/room/${item.imgSrc}`}
-                className="h-70 w-full object-cover rounded-lg"
+                className="h-70 w-full object-cover"
               />
             </SwiperSlide>
           ))}
