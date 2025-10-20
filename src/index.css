@@ -182,7 +182,7 @@ html {
 }
 
 .customNavNext {
-    @apply rounded-full border-2 flex items-center h-10 w-10
+    @apply rounded-full border-2 flex items-center h-10 w-13
 }
 
 .customNavNext:active {
@@ -190,7 +190,7 @@ html {
 }
 
 .customNavPrev {
-    @apply rounded-full border-2 flex items-center h-10 w-10
+    @apply rounded-full border-2 flex items-center h-10 w-13
 }
 
 .customNavPrev:active {
