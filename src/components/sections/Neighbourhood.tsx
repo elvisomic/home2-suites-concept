@@ -1,4 +1,6 @@
-import { NeighbourhoodCard } from "../cards/NeighbourhoodCard"
+import { lazy } from "react"
+
+const NeighbourhoodCard = lazy(() => import("../cards/NeighbourhoodCard"))
 
 export const Neighbourhood = () => {
     return (

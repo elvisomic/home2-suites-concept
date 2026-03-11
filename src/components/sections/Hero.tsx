@@ -86,7 +86,7 @@ export const Hero = () => {
                     </motion.div>
 
                     <div className="md:hidden absolute bottom-28 w-full px-4 z-20">
-                        <h1 className="text-white text-[22px] my-4 mx-2 sm:text-[28px] whitespace">Your Modern Stay in the Heart of Times Square</h1>
+                        <h2 className="text-white text-[22px] my-4 mx-2 sm:text-[28px] whitespace">Your Modern Stay in the Heart of Times Square</h2>
                         <BookingPhones />
                     </div>
 

@@ -17,7 +17,7 @@ export const Benefits = () => {
 
                 <div className="p-3 overflow-y-hidden rounded-lg row-span-2 h-full bg-[#F0F2F5] border-1 border-[#E0E0E0] shadow-xl grid grid-rows-[70%_30%] xl:grid-rows-[75%_25%] 2xl:grid-rows-[75%_25%]">
                     <div className="h-full w-full flex justify-center items-end">
-                        <img src="/home2-suites-concept/assets/bentoGrid/points.png" className="xl:h-80 2xl:h-100 object-cover" />
+                        <img loading="lazy" src="/home2-suites-concept/assets/bentoGrid/points.png" className="xl:h-80 2xl:h-100 object-cover" alt="Illustration of a man climbing on steps" />
                     </div>
                     <div className="2xl:max-w-[400px]">
                         <hr className="border-black/70" />
@@ -27,7 +27,7 @@ export const Benefits = () => {
                 </div>
                 <div className="p-3 rounded-lg col-span-2 lg:h-90 xl:h-90 2xl:h-90 bg-[#F0F2F5] border-1 border-[#E0E0E0] shadow-xl grid grid-cols-[60%_40%] 2xl:grid-cols-[70%_30%] ">
                     <div className="h-full w-full flex justify-center items-center overflow-hidden">
-                        <img src="/home2-suites-concept/assets/bentoGrid/Discounts.png" className="h-60 w-90 2xl:h-70 2xl:w-100" />
+                        <img loading="lazy" src="/home2-suites-concept/assets/bentoGrid/Discounts.png" className="h-60 w-90 2xl:h-70 2xl:w-100" alt="Illustration of a woman looking through telescopes to see the highest discount rates" />
                     </div>
                     <div className="mx-4 2xl:max-w-[400px]">
                         <h1 className="text-[20px] xl:text-[24px]/10 font-semibold">Discount Rates</h1>
@@ -37,7 +37,7 @@ export const Benefits = () => {
                 </div>
                 <div className="p-3 rounded-lg lg:h-90 xl:h-90 2xl:h-90 bg-[#F0F2F5] border-1 border-[#E0E0E0] shadow-xl grid grid-rows-[50%_50%] 2xl:grid-rows-[60%_40%]">
                     <div className="h-full w-full flex px-4 justify-center items-center overflow-y-hidden">
-                        <img src="/home2-suites-concept/assets/bentoGrid/digitalKey.png" className="h-50 w-70" />
+                        <img loading="lazy" src="/home2-suites-concept/assets/bentoGrid/digitalKey.png" className="h-50 w-70" alt="Illustration of Digital Key" />
                     </div>
                     <div className="2xl:max-w-[400px]">
                         <hr className="border-black/70" />
@@ -48,7 +48,7 @@ export const Benefits = () => {
                 </div>
                 <div className="p-3 rounded-lg lg:h-90 xl:h-90 2xl:h-90 bg-[#F0F2F5] border-1 border-[#E0E0E0] shadow-xl grid grid-rows-[50%_50%] 2xl:grid-rows-[60%_40%]">
                     <div className="h-full w-full flex px-4 justify-center items-center overflow-y-hidden">
-                        <img src="/home2-suites-concept/assets/bentoGrid/roomView.png" className="h-50 w-70" />
+                        <img loading="lazy" src="/home2-suites-concept/assets/bentoGrid/roomView.png" className="h-50 w-70" alt="Illustration of room view" />
                     </div>
                     <div className="2xl:max-w-[400px]">
                         <hr className="border-black/70" />

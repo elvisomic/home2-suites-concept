@@ -8,7 +8,14 @@ interface ExploreCardProps {
     altText: string;
 }
 
-export const NeighbourhoodCard = ({ imageSrc, title, description, buttonText, offset, altText }: ExploreCardProps) => {
+export default function NeighbourhoodCard({
+  imageSrc,
+  title,
+  description,
+  buttonText,
+  offset,
+  altText
+}: ExploreCardProps) {
     return (
         <div className={`relative 2xl:w-[355px] 2xl:h-[475px] lg:w-[270px] lg:h-[390px] object-cover overflow-hidden group ${offset}`}>
             <img

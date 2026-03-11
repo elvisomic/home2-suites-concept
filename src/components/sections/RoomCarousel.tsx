@@ -28,13 +28,13 @@ export const RoomCarousel = () => {
           </div>
 
           <motion.div style={{ x }} className="flex gap-[420px]">
-            <img className="w-[600px] h-[500px] rounded-[12px] object-cover object-[62%] -translate-y-8" src="/home2-suites-concept/assets/room/QueenStudio.jpg"></img>
-            <img className="h-[420px] rounded-[12px] object-cover object-[55%] translate-y-62" src="/home2-suites-concept/assets/room/hotel2.jpg"></img>
-            <img className="h-[500px] rounded-[12px] object-cover object-[55%] -translate-y-20" src="/home2-suites-concept/assets/room/DeskInStudio.jpg"></img>
-            <img className="h-[300px] rounded-[12px] object-cover object-[55%] translate-y-60 xl:translate-y-80" src="/home2-suites-concept/assets/room/Toilet2.jpg"></img>
-            <img className="h-[390px] rounded-[12px] object-cover object-[55%] -translate-y-25" src="/home2-suites-concept/assets/room/room.jpg"></img>
-            <img className="h-[480px] 2xl:h-[550px] w-auto rounded-[12px] object-cover object-[55%] translate-y-40" src="/home2-suites-concept/assets/room/QueenCornerRoom.jpg"></img>
-            <img className="h-[500px] w-auto rounded-[12px] object-cover object-[55%] -translate-y-28" src="/home2-suites-concept/assets/room/Toilet1.jpg"></img>
+            <img className="w-[600px] h-[500px] rounded-[12px] object-cover object-[62%] -translate-y-8" src="/home2-suites-concept/assets/room/QueenStudio.jpg" alt="Image showing Room 1" />
+            <img className="h-[420px] rounded-[12px] object-cover object-[55%] translate-y-62" src="/home2-suites-concept/assets/room/hotel2.jpg" alt="Image showing Room 2" />
+            <img className="h-[500px] rounded-[12px] object-cover object-[55%] -translate-y-20" src="/home2-suites-concept/assets/room/DeskInStudio.jpg" alt="Image showing Studio Room" />
+            <img className="h-[300px] rounded-[12px] object-cover object-[55%] translate-y-60 xl:translate-y-80" src="/home2-suites-concept/assets/room/Toilet2.jpg" alt="Image showing Toilet 1" />
+            <img className="h-[390px] rounded-[12px] object-cover object-[55%] -translate-y-25" src="/home2-suites-concept/assets/room/room.jpg" alt="Image showing Room 3" />
+            <img className="h-[480px] 2xl:h-[550px] w-auto rounded-[12px] object-cover object-[55%] translate-y-40" src="/home2-suites-concept/assets/room/QueenCornerRoom.jpg" alt="Image showing Queen Room" />
+            <img className="h-[500px] w-auto rounded-[12px] object-cover object-[55%] -translate-y-28" src="/home2-suites-concept/assets/room/Toilet1.jpg" alt="Image showing Toilet 2" />
           </motion.div>
         </div>
     </section>

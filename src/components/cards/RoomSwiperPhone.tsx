@@ -63,6 +63,7 @@ export const RoomSwiperPhone = () => {
           {slide.map((item) => (
             <SwiperSlide key={item.imgSrc}>
               <img
+                loading='lazy'
                 src={`/home2-suites-concept/assets/room/${item.imgSrc}`}
                 className="h-70 w-full object-cover"
               />

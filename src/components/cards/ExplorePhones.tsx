@@ -33,7 +33,7 @@ export const ExplorePhones: React.FC = () => {
                     {list.map((item, index) => (
                         <div key={index} className={`bg-white rounded-xl shadow-md flex-shrink-0 w-56 h-28 px-3 py-4 gap-x-2 grid ${item.src ? 'grid-cols-[40%_60%]' : 'grid-cols-1'} grid-rows-[40%_60%]`}>
                             {item.src && <div className="row-span-2">
-                                <img src={`${item.src}`} className="object-cover h-20 w-full" />
+                                <img src={`${item.src}`} className="object-cover h-20 w-full" alt={`Image showing the ${index+1} element of list`} loading="lazy" />
                             </div>
                             }<div className="flex flex-row items-center">
                                 <h1 className="opacity-70">{index + 1} / {item.title}</h1>
