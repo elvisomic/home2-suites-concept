@@ -6,7 +6,7 @@ export const Ammenities = () => {
 
             <div className="grid grid-rows-[30%_70%] sm:grid-rows-1 sm:grid-cols-[49%_2%_49%] w-full mt-10">
                 <div className="flex flex-col gap-y-10 mx-4 sm:mx-0 md:gap-y-20 3xl:max-w-[620px] sm:max-w-[500px]">
-                    <h1 className="text-[28px] font-semibold">Moments from Broadway</h1>
+                    <h2 className="text-[28px] font-semibold">Moments from Broadway</h2>
                     <p className="text-[16px] lg:text-[20px] sm:mx-0 font-light"> Stay in the heart of Times Square, steps from Broadway, the subway, and a world of dining. Iconic spots like Macy's, the Empire State Building, Grand Central, Madison Square Garden, and Penn Station are all within a mile. Enjoy complimentary WiFi and breakfast, a fully equipped fitness center, business services, and unwind at our Rooftop Lounge or Lobby Bar. </p>
                 </div>
 
@@ -18,7 +18,7 @@ export const Ammenities = () => {
 
                     <div className="mt-20 sm:mt-0 sm:h-150 md:h-100 grid grid-cols-2 grid-rows-5 sm:grid-rows-10 md:grid-cols-3 md:grid-rows-4 gap-x-5 lg:gap-x-16  md:gap-x-16 gap-y-8  sm:px-2 md:px-4 xl:px-6 xl:whitespace-nowrap">
                         <div className="col-span-2 md:col-span-3">
-                            <h1 className="mt-8 sm:mt-0 text-[28px] font-semibold ">Our ammenities</h1>
+                            <h2 className="mt-8 sm:mt-0 text-[28px] font-semibold ">Our ammenities</h2>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
                             <span className="fa-solid fa-bacon text-[24px] lg:text-[28px] 2xl:text-[32px] m-1 p-1"></span>
@@ -77,7 +77,7 @@ export const Ammenities = () => {
 
                     <div className="w-full flex flex-wrap items-center">
                         <div className="h-50 flex flex-wrap gap-y-6 mx-4 mt-4 md:mx-4 md:mt-0">
-                            <h1 className="text-[28px] font-semibold">Interlude Rooftop Lounge</h1>
+                            <h2 className="text-[28px] font-semibold">Interlude Rooftop Lounge</h2>
                             <p className="text-[16px] md:text-[16px] lg:text-[20px] font-light ">Escape to the sky above Times Square at Interlude Rooftop Lounge. Sip on handcrafted cocktails and share gourmet bites in an elevated atmosphere that's both chic and inviting. Our expert mixologists craft signature drinks with flair, while you take in sweeping views of New York City and enjoy attentive, personalized service.</p>
                         </div>
                         <div className="h-8 w-full mx-4 mt-36">

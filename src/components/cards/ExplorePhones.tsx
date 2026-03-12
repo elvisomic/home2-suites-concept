@@ -24,7 +24,7 @@ const list: ListProps[] = [
 export const ExplorePhones: React.FC = () => {
     return (
         <section id="explore" className="h-auto md:hidden mt-24 overflow-hidden">
-            <h1 className="text-[28px] sm:text-[40px] mb-4 font-semibold mx-4">Explore New York City</h1>
+            <h2 className="text-[28px] sm:text-[40px] mb-4 font-semibold mx-4">Explore New York City</h2>
             <p className="text-[16px] sm:text-[20px] mx-4 mb-12">Discover top attractions and see how<br />close they are.</p>
             <div className="relative ">
                 <iframe loading='lazy' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1796.9655333904511!2d-73.98422179234979!3d40.75930284555972!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855e93476d5%3A0x32c93e473f7dfe73!2sHome2%20Suites%20by%20Hilton%20New%20York%20Times%20Square!5e0!3m2!1sen!2srs!4v1758804894634!5m2!1sen!2srs"
@@ -36,7 +36,7 @@ export const ExplorePhones: React.FC = () => {
                                 <img src={`${item.src}`} className="object-cover h-20 w-full" alt={`Image showing the ${index+1} element of list`} loading="lazy" />
                             </div>
                             }<div className="flex flex-row items-center">
-                                <h1 className="opacity-70">{index + 1} / {item.title}</h1>
+                                <h3 className="opacity-70">{index + 1} / {item.title}</h3>
                             </div>
                             <div className="flex items-end">
                                 <div className="flex flex-row -my-2">

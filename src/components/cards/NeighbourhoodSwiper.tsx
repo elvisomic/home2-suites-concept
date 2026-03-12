@@ -7,7 +7,7 @@ const Slika = ({ src, cName }: { src: string, cName: string }) => {
 }
 
 const Text = ({ t, cName }: { t: string, cName?: string }) => {
-    return <h1 className={`absolute text-[32px] xl:text-[42px] text-neutral-800 z-20 ml-4 xl:ml-8 ${cName}`}>{t}</h1>
+    return <h2 className={`absolute text-[32px] xl:text-[42px] text-neutral-800 z-20 ml-4 xl:ml-8 ${cName}`}>{t}</h2>
 }
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -23,7 +23,7 @@ export const NeighbourhoodSwiper = () => {
     return (
         <section className="lg:hidden relative flex flex-wrap justify-center h-auto overflow-hidden ml-4">
             <div className="flex flex-col mt-20 mb-10 mr-4">
-                <h1 className="flex text-[28px] sm:text-[40px] whitespace-nowrap font-semibold">What's Nearby</h1>
+                <h2 className="flex text-[28px] sm:text-[40px] whitespace-nowrap font-semibold">What's Nearby</h2>
                 <p className="flex text-[16px]/7 sm:text-[20px] font-light ">Conveniently located, our hotel is surrounded by a variety of attractions, dining options, and local landmarks. Guests can easily explore nearby shops, restaurants, and cultural highlights, making it simple to experience the best of the area during their stay.</p>
             </div>
 

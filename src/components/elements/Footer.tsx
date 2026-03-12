@@ -11,7 +11,7 @@ export const Footer = () => {
 
             <div className="h-full md:grid md:grid-cols-[50%_50%] items-center md:px-4 lg:px-20 py-8 justify-center">
                 <div className="flex justify-center items-center md:h-34 md:w-64 2xl:h-54 2xl:w-104">
-                    <img loading="lazy" src="/home2-suites-concept/assets/Home2.png" className="2xl:h-40 2xl:w-80 md:h-30 md:w-60 h-30 w-60" />
+                    <img loading="lazy" src="/home2-suites-concept/assets/Home2.png" className="2xl:h-40 2xl:w-80 md:h-30 md:w-60 h-30 w-60" alt="Logo of Home2 Suites" />
                 </div>
                 <div className="h-full p-7 md:p-14 flex items-center justify-center">
                     <div className="flex flex-col gap-y-8">
