@@ -29,7 +29,7 @@ const ListCard: React.FC = () => {
                     <div className="h-8 ">
                         <div className=" flex flex-row gap-2 ">
                             <p className="text-[16px] text-gray-500 mt-1">{index + 1} /</p>
-                            <h1 className="text-[20px]">{item.title}</h1>
+                            <h3 className="text-[20px]">{item.title}</h3>
                         </div>
                         <div className="">
 

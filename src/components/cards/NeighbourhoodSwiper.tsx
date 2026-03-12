@@ -7,7 +7,7 @@ const Slika = ({ src, cName }: { src: string, cName: string }) => {
 }
 
 const Text = ({ t, cName }: { t: string, cName?: string }) => {
-    return <h1 className={`absolute text-[32px] xl:text-[42px] text-neutral-800 z-20 ml-4 xl:ml-8 ${cName}`}>{t}</h1>
+    return <h2 className={`absolute text-[32px] xl:text-[42px] text-neutral-800 z-20 ml-4 xl:ml-8 ${cName}`}>{t}</h2>
 }
 
 import { Swiper, SwiperSlide } from 'swiper/react';
