@@ -11,7 +11,7 @@ const Z = ({ children, cols, rows, h, cName }: { children:React.ReactNode, cols:
 }
 
 const Text = ({ t, cName }: { t:string, cName:string }) => {
-    return <h1 className={`absolute  text-white opacity-80 z-30 ml-4 xl:ml-6 2xl:row-span-2 ${cName}`}>{t}</h1>
+    return <h2 className={`absolute text-white opacity-80 z-30 ml-4 xl:ml-6 2xl:row-span-2 ${cName}`}>{t}</h2>
 }
 
 export const Photos = () => {

@@ -23,7 +23,7 @@ export const NeighbourhoodSwiper = () => {
     return (
         <section className="lg:hidden relative flex flex-wrap justify-center h-auto overflow-hidden ml-4">
             <div className="flex flex-col mt-20 mb-10 mr-4">
-                <h1 className="flex text-[28px] sm:text-[40px] whitespace-nowrap font-semibold">What's Nearby</h1>
+                <h2 className="flex text-[28px] sm:text-[40px] whitespace-nowrap font-semibold">What's Nearby</h2>
                 <p className="flex text-[16px]/7 sm:text-[20px] font-light ">Conveniently located, our hotel is surrounded by a variety of attractions, dining options, and local landmarks. Guests can easily explore nearby shops, restaurants, and cultural highlights, making it simple to experience the best of the area during their stay.</p>
             </div>
 

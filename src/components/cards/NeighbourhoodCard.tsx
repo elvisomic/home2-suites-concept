@@ -29,7 +29,7 @@ export default function NeighbourhoodCard({
             transition-transform duration-800
             group-hover:translate-y-0
             will-change-transform">
-                <h2 className="text-2xl font-semibold mb-28">{title}</h2>
+                <h3 className="text-2xl font-semibold mb-28">{title}</h3>
                 <p className="font-light text-sm mb-8">{description}</p>
                 <button className="px-6 py-2 border border-white rounded-full text-sm tracking-wide hover:bg-white hover:text-[#8c6b47] transition duration-300">
                     {buttonText}

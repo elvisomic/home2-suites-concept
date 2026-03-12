@@ -9,7 +9,7 @@ export const Benefits = () => {
         <section id="hiltonplusPC" className="hidden h-auto lg:block mb-20 lg:px-16 xl:px-28 2xl:px-32 3xl:px-72 py-1">
 
             <div className="flex flex-col mt-20 mb-4">
-                <h1 className="flex text-[40px] justify-center font-semibold">Hilton Honors Member Benefits</h1>
+                <h2 className="flex text-[40px] justify-center font-semibold">Hilton Honors Member Benefits</h2>
                 <p className="flex 2xl:text-[20px]/7 lg:mx-46 xl:mx-86 text-center font-light">Hilton Honors Member Benefits give guests exclusive savings, the ability to earn rewards, and access to convenient digital tools that make every stay easier and more rewarding.</p>
             </div>
 
@@ -21,7 +21,7 @@ export const Benefits = () => {
                     </div>
                     <div className="2xl:max-w-[400px]">
                         <hr className="border-black/70" />
-                        <h1 className="text-[20px] xl:text-[24px]/10 font-semibold">Points and Perks</h1>
+                        <h3 className="text-[20px] xl:text-[24px]/10 font-semibold">Points and Perks</h3>
                         <p className="opacity-90 break-words">Every stay brings you closer to more rewards. Earn Hilton Honors Points for every night, and enjoy exclusive benefits like free nights, room upgrades, and premium experiences as you move up in membership tiers.</p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export const Benefits = () => {
                         <img loading="lazy" src="/home2-suites-concept/assets/bentoGrid/Discounts.png" className="h-60 w-90 2xl:h-70 2xl:w-100" alt="Illustration of a woman looking through telescopes to see the highest discount rates" />
                     </div>
                     <div className="mx-4 2xl:max-w-[400px]">
-                        <h1 className="text-[20px] xl:text-[24px]/10 font-semibold">Discount Rates</h1>
+                        <h3 className="text-[20px] xl:text-[24px]/10 font-semibold">Discount Rates</h3>
                         <p className="opacity-90 break-words">Loyalty pays off - unlock special discounted rates after 10, 20, and 30 days of stay. The longer you stay with Hilton, the more you save. Check your Hilton Honors benefits to see what's waiting for you.</p>
                     </div>
 
@@ -41,7 +41,7 @@ export const Benefits = () => {
                     </div>
                     <div className="2xl:max-w-[400px]">
                         <hr className="border-black/70" />
-                        <h1 className="text-[20px] xl:text-[24px]/10 font-semibold">Digital Key and Check-In</h1>
+                        <h3 className="text-[20px] xl:text-[24px]/10 font-semibold">Digital Key and Check-In</h3>
                         <p className="opacity-90 break-words">Save time and skip the front desk with Digital Check-In. Use your phone to check in, choose your room, and unlock your door - all through the Hilton Honors app for a seamless arrival experience.</p>
                     </div>
 
@@ -52,7 +52,7 @@ export const Benefits = () => {
                     </div>
                     <div className="2xl:max-w-[400px]">
                         <hr className="border-black/70" />
-                        <h1 className="text-[20px] xl:text-[24px]/10 font-semibold">Choose Your Room</h1>
+                        <h3 className="text-[20px] xl:text-[24px]/10 font-semibold">Choose Your Room</h3>
                         <p className="opacity-90 break-words">Enjoy the freedom to select the perfect room before you arrive. Whether you prefer a high floor, a specific view, or proximity to amenities, you're in control of your stay from the start.</p>
                     </div>
 
@@ -61,7 +61,7 @@ export const Benefits = () => {
 
             <div className="mt-40 h-120 w-full">
                 <div className="flex flex-col items-center justify-center">
-                    <h1 className="text-[28px] font-semibold">Do you want to become member?</h1>
+                    <h2 className="text-[28px] font-semibold">Do you want to become member?</h2>
                     <p className="2xl:text-[20px]/7 lg:mx-46 xl:mx-86 text-center font-light">Join Hilton Honors for free and enjoy exclusive benefits from your very first stay — special member rates, free Wi-Fi, late checkout, and the chance to earn points toward free nights and rewards.</p>
                     <Button />
                 </div>
