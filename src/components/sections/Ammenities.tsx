@@ -72,7 +72,7 @@ export const Ammenities = () => {
             <div className="w-full h-auto">
                 <div className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 h-full w-full">
                     <div className="h-130 w-full flex justify-center">
-                        <img src="/home2-suites-concept/assets/rooftopBar.jpg" className="mt-4 rounded-lg object-cover h-120 w-full" />
+                        <img loading="lazy" src="/home2-suites-concept/assets/rooftopBar.jpg" className="mt-4 rounded-lg object-cover h-120 w-full" alt="Image showing the view of Rooftop Bar at Home2 Suites - Times Square Hotel" />
                     </div>
 
                     <div className="w-full flex flex-wrap items-center">
