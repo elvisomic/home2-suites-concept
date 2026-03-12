@@ -5,15 +5,24 @@ interface ExploreCardProps {
     description: string,
     buttonText: string,
     offset?: string;
+    altText: string;
 }
 
-export const NeighbourhoodCard = ({ imageSrc, title, description, buttonText, offset }: ExploreCardProps) => {
+export default function NeighbourhoodCard({
+  imageSrc,
+  title,
+  description,
+  buttonText,
+  offset,
+  altText
+}: ExploreCardProps) {
     return (
         <div className={`relative 2xl:w-[355px] 2xl:h-[475px] lg:w-[270px] lg:h-[390px] object-cover overflow-hidden group ${offset}`}>
             <img
                 src={imageSrc}
                 loading="lazy"
                 className="object-cover h-full 2xl:w-[355px] 2xl:h-[475px] lg:w-[270px] lg:h-[390px]"
+                alt={altText}
             />
 
             <div className="absolute inset-0 bg-[#493728] flex flex-col items-center justify-center text-white text-center px-4 translate-y-full

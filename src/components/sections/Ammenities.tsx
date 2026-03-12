@@ -21,39 +21,47 @@ export const Ammenities = () => {
                             <h1 className="mt-8 sm:mt-0 text-[28px] font-semibold ">Our ammenities</h1>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
-                            <img src="/home2-suites-concept/assets/svg/breakfast.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                            <span className="fa-solid fa-bacon text-[24px] lg:text-[28px] 2xl:text-[32px] m-1 p-1"></span>
                             <p className="inline-block text-[11px] lg:text-[16px] ">Free Hot <br className="2xl:hidden" /> Breakfast</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
-                            <img src="/home2-suites-concept/assets/svg/kitchen.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1 " />
+                            
+                            <span className="fa-solid fa-kitchen-set text-[24px] lg:text-[28px] 2xl:text-[32px] m-1 p-1"></span>
                             <p className="inline-block text-[11px] lg:text-[16px] ">In-Room <br className="2xl:hidden" />Kitchen</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
-                            <img src="/home2-suites-concept/assets/svg/gym.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                            
+                            <span className="fa-solid fa-dumbbell text-[24px] lg:text-[28px] 2xl:text-[32px] m-1 p-1"></span>
                             <p className="inline-block text-[11px] lg:text-[16px] ">Fitness<br className="md:hidden" /> Center</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
-                            <img src="/home2-suites-concept/assets/svg/extended-stay.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                            
+                            <span className="fa-solid fa-calendar text-[24px] lg:text-[28px] 2xl:text-[32px] m-1 p-1"></span>
                             <p className="inline-block text-[11px] lg:text-[16px] ">Extended <br className="2xl:hidden" /> Stay</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
-                            <img src="/home2-suites-concept/assets/svg/pets.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                            
+                            <span className="fa-solid fa-paw text-[24px] lg:text-[28px] 2xl:text-[32px] m-1 p-1"></span>
                             <p className="inline-block text-[11px] lg:text-[16px] ">Pet-Friendly <br className="2xl:hidden" /> Rooms</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
-                            <img src="/home2-suites-concept/assets/svg/digital-key.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                            
+                            <span className="fa-solid fa-mobile-screen text-[24px] lg:text-[28px] 2xl:text-[32px] m-1 p-1"></span>
                             <p className="inline-block text-[11px] lg:text-[16px] ">Digital Key</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
-                            <img src="/home2-suites-concept/assets/svg/smoking.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                            
+                            <span className="fa-solid fa-ban-smoking text-[24px] lg:text-[28px] 2xl:text-[32px] m-1 p-1"></span>
                             <p className="inline-block text-[11px] lg:text-[16px]">Non-Smoking <br className="2xl:hidden" /> Rooms</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap gap-x-1 lg:gap-x-2">
-                            <img src="/home2-suites-concept/assets/svg/wifi.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                            
+                            <span className="fa-solid fa-wifi text-[24px] lg:text-[28px] 2xl:text-[32px] m-1 p-1"></span>
                             <p className="inline-block text-[11px] lg:text-[16px] ">Free Wi-Fi</p>
                         </div>
                         <div className="flex flex-row items-center whitespace-nowrap justify-center md:justify-start gap-x-2 md:gap-x-1 lg:gap-x-2 col-span-2 md:col-span-1">
-                            <img src="/home2-suites-concept/assets/svg/entertainment.svg" className="h-12 w-12 md:h-10 md:w-10 lg:h-12 lg:w-12 p-1" />
+                            
+                            <span className="fa-solid fa-tv text-[24px] lg:text-[28px] 2xl:text-[32px] m-1 p-1"></span>
                             <p className="inline-block text-[11px] lg:text-[16px] ">Entertainment</p>
                         </div>
                     </div>
@@ -64,7 +72,7 @@ export const Ammenities = () => {
             <div className="w-full h-auto">
                 <div className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 h-full w-full">
                     <div className="h-130 w-full flex justify-center">
-                        <img src="/home2-suites-concept/assets/rooftopBar.jpg" className="mt-4 rounded-lg object-cover h-120 w-full" />
+                        <img loading="lazy" src="/home2-suites-concept/assets/rooftopBar.jpg" className="mt-4 rounded-lg object-cover h-120 w-full" alt="Image showing the view of Rooftop Bar at Home2 Suites - Times Square Hotel" />
                     </div>
 
                     <div className="w-full flex flex-wrap items-center">

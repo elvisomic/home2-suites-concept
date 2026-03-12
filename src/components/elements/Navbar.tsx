@@ -16,7 +16,7 @@ const navItemsPhone = [
 
 const NavItemPhone = ({ href, iconSrc, className }: { href: string, iconSrc: string, className?: string }) => {
   return (
-    <a href={`${href}`}><img src={`/home2-suites-concept/assets/svg/${iconSrc}`} className={`${className} h-10 active:scale-75 transition-transform ease-in-out duration-200`} /></a>
+    <a href={`${href}`}><img loading="lazy" src={`/home2-suites-concept/assets/svg/${iconSrc}`} className={`${className} h-10 active:scale-75 transition-transform ease-in-out duration-200`} /></a>
   )
 }
 
