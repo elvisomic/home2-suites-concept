@@ -7,16 +7,16 @@ const navItems = [
 ]
 
 const navItemsPhone = [
-  { href: "#rooms", iconSrc: "roomsIcon.svg" },
-  { href: "#ammenities", iconSrc: "ammenities.svg" },
-  { href: "#home", iconSrc: "home.svg" },
-  { href: "#hiltonplus", iconSrc: "membership.svg" },
-  { href: "#explore", iconSrc: "explore.svg" },
+  { href: "#rooms", iconSrc: "roomsIcon.svg", alt:"Rooms"},
+  { href: "#ammenities", iconSrc: "ammenities.svg", alt:"Ammenities"},
+  { href: "#home", iconSrc: "home.svg", alt:"Home"},
+  { href: "#hiltonplus", iconSrc: "membership.svg", alt:"HILTON+"},
+  { href: "#explore", iconSrc: "explore.svg", alt:"Explore"},
 ]
 
-const NavItemPhone = ({ href, iconSrc, className }: { href: string, iconSrc: string, className?: string }) => {
+const NavItemPhone = ({ href, iconSrc, className, altText }: { href: string, iconSrc: string, className?: string, altText: string }) => {
   return (
-    <a href={`${href}`}><img loading="lazy" src={`/home2-suites-concept/assets/svg/${iconSrc}`} className={`${className} h-10 active:scale-75 transition-transform ease-in-out duration-200`} /></a>
+    <a href={`${href}`}><img loading="lazy" src={`/home2-suites-concept/assets/svg/${iconSrc}`} className={`${className} h-10 active:scale-75 transition-transform ease-in-out duration-200`} alt={`Logo for ${altText} navigation button`} /></a>
   )
 }
 
@@ -53,6 +53,7 @@ export const NavbarPhones = () => {
               href={item.href}
               iconSrc={item.iconSrc}
               className={`${index === 2 ? "bg-[#747474] p-3 rounded-full -translate-y-2 outline-4 outline-[#797979] shadow-2xl h-20 " : ""}`}
+              altText={item.alt}
             />
           ))}
         </nav>
