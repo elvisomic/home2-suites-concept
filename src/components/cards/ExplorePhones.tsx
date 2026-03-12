@@ -31,7 +31,7 @@ export const ExplorePhones: React.FC = () => {
                     className="h-170 w-full row-span-2 flex rounded-xl z-10"></iframe>
                 <div className="absolute bottom-25 left-20 sm:left-40 right-0 flex overflow-x-auto gap-4 z-20 scrollbar-none">
                     {list.map((item, index) => (
-                        <div key={index} className={`bg-white rounded-xl shadow-md flex-shrink-0 w-56 h-28 px-3 py-4 gap-x-2 grid ${item.src ? 'grid-cols-[40%_60%]' : 'grid-cols-1'} grid-rows-[40%_60%]`}>
+                        <div key={index} className={`bg-white rounded-xl shadow-md flex-shrink-0 w-60 h-28 px-3 py-4 gap-x-2 grid ${item.src ? 'grid-cols-[40%_60%]' : 'grid-cols-1'} grid-rows-[40%_60%]`}>
                             {item.src && <div className="row-span-2">
                                 <img src={`${item.src}`} className="object-cover h-20 w-full" alt={`Image showing the ${index+1} element of list`} loading="lazy" />
                             </div>
@@ -39,10 +39,10 @@ export const ExplorePhones: React.FC = () => {
                                 <h1 className="opacity-70">{index + 1} / {item.title}</h1>
                             </div>
                             <div className="flex items-end">
-                                <div className="flex flex-row -my-4">
-                                    <img src="/home2-suites-concept/assets/svg/car.svg" className="opacity-70 h-6 my-2" />
+                                <div className="flex flex-row -my-2">
+                                    <span className="fa-solid fa-car opacity-60 mr-1 text-[24px] -ml-1" ></span>
                                     {item.carTime}
-                                    <img src="/home2-suites-concept/assets/svg/walkingIcon.svg" className="opacity-70 ml-2 h-6" />
+                                    <span className="fa-solid fa-person-walking opacity-60 mr-1 text-[24px]" ></span>
                                     {item.walkTime}
                                 </div>
                             </div>
