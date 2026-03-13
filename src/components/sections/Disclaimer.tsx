@@ -1,3 +1,5 @@
+
+
 export const Disclaimer = () => {
     return (
         <section id="disclaimer" className="flex items-center h-auto my-20">

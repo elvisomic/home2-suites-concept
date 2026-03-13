@@ -26,7 +26,7 @@ export const Navbar = () => {
     <section id="navbarID" className="hidden md:flex justify-center opacity-0">
       <header className="fixed top-4 z-50 p-4 bg-white rounded-4xl shadow-2xl">
         <nav className="relative flex justify-between items-center">
-          <a href="#home"><img className="md:h-7 h-5 mr-10 xl:h-8" src="/home2-suites-concept/assets/Home2.png" alt="" /></a>
+          <a href="#home"><img className="md:h-7 h-5 mr-10 xl:h-8" src="/home2-suites-concept/assets/Home2.png" alt="Logo of Home2 suites" /></a>
           <ul className="flex mx-3 gap-5 text-[12px] md:text-[16px] xl:text-[20px] xl:gap-7">
             {navItems.map((item) => (
               <li className="text-black" key={item.text}>
