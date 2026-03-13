@@ -1,7 +1,7 @@
 const Slika = ({ src, cName }: { src: string, cName: string }) => {
     return (
         <section>
-            <img src={src} className={`object-cover w-full transform transition-transform duration-400 hover:scale-120 ${cName} h-140`} loading='lazy' />
+            <img src={src} className={`object-cover w-full transform transition-transform duration-400 hover:scale-120 ${cName} h-140`} loading='lazy' alt={`Image showing ${cName}`} />
         </section>
     )
 }
